@@ -1,0 +1,68 @@
+.bg-img {
+  .clip-path {
+    height: 55%;
+    width: 23vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 4;
+    background-color: $orange;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    .clip-content {
+      height: auto;
+      padding: 2% 0px 0% 0px;
+      width: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-left: 5vw;
+      h1 {
+        position: relative;
+        top: 10px;
+        color: white;
+        font-size: 2vw;
+      }
+    }
+    .clip-contact {
+      @extend .clip-content;
+      right: 0;
+      position: relative;
+      .text {
+        position: relative;
+        left: 2vw;
+        i {
+          color: white;
+          font-size: 1.1vw;
+          position: relative;
+          top: 3px;
+        }
+        a {
+          padding-left: 10px;
+          position: relative;
+          font-size: 1.1vw;
+        }
+      }
+    }
+    .no {
+      p {
+        position: relative;
+        // left: 12.6vw;
+        padding-left: 12.6vw;
+        font-size: 1.1vw;
+        color: white;
+        font-weight: bold;
+      }
+    }
+  }
+  .clip-path-shadow {
+    @extend .clip-path;
+    width: 27vw;
+    height: 56%;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+// Responsive
+@import "../Responsive/Header/clip-path-responsive";

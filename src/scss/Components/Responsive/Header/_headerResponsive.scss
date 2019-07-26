@@ -1,0 +1,21 @@
+@media (min-width: $xxlg) {
+  .bg-img {
+    height: 900px !important;
+  }
+}
+@media (max-width: $xlg) and (min-width: $xlg) {
+  .bg-img {
+    height: 600px !important;
+  }
+}
+@media (max-width: $lg) {
+  .bg-img {
+    height: 600px;
+    .title {
+      top: 67%;
+      h1 {
+        font-size: 6vw !important;
+      }
+    }
+  }
+}

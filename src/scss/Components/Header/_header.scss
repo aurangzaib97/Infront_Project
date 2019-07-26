@@ -1,0 +1,30 @@
+.bg-img {
+  height: 700px;
+  width: 100%;
+  position: relative;
+  background: url("https://www.infront.com/images/default-source/blog/header-image-race-1300x420_edit_sm.jpg?sfvrsn=7e5c5cb9_3")
+    no-repeat;
+  background-size: 100% 100%;
+  .title {
+    height: 28%;
+    width: 46%;
+    // border: $border;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    h1 {
+      color: $orange;
+      font-size: 4vw;
+      margin: 0;
+    }
+    p {
+      font-size: 1.9vw;
+      font-family: cursive;
+    }
+  }
+}
+
+// Responsive Header
+@import "../Responsive/Header/headerResponsive";
+// Aside Clip Path
+@import "./clip-path";

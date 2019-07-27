@@ -1,0 +1,59 @@
+@media (max-width: $md) {
+  .introduction {
+    //   form div
+    .form {
+      // form tag
+      .conversation {
+        h1 {
+          font-size: 2.5vw;
+        }
+        //   input div
+        .input-tags {
+          // input tag
+          .input {
+            width: 83% !important;
+          }
+          //   input tag
+          .input-full {
+            width: 91% !important;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: $sm) {
+  .introduction {
+    flex-direction: column;
+    // description
+    .intro,
+      // form media query
+      .form {
+      width: 100% !important;
+      align-items: center;
+      //   form
+      .conversation {
+        width: 95% !important;
+        h1 {
+          font-size: 5.5vw !important;
+        }
+      }
+    }
+    // description
+    .intro {
+      padding-left: 10px;
+      h1 {
+        font-size: 5.7vw;
+      }
+      //   paragraph-1
+      .intro-1 {
+        padding-top: 10px;
+      }
+      //   all paragraph
+      p {
+        text-align: justify;
+        width: 96%;
+      }
+    }
+  }
+}

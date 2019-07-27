@@ -3,5 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+// Variables
 @import "./Components/variables";
+// Header
 @import "./Components/Header/header";
+// NavBar
+@import "./Components/NavBar/nav";
+// Introduction
+@import "./Components//Introduction/introduction";

@@ -1,0 +1,22 @@
+@media (max-width: 491px) {
+  nav {
+    .resLogo {
+      width: 50% !important;
+      margin-left: 0px !important;
+    }
+  }
+}
+@media (max-width: $md) {
+  .navItems,
+  .nav-item {
+    margin-left: 0 !important;
+  }
+}
+@media (max-width: $sm) {
+  .nav-link {
+    font-size: 10px;
+  }
+  .dropdown-item {
+    font-size: 10px;
+  }
+}

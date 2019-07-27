@@ -11,7 +11,7 @@ const clipPath = () => {
         <div className="clip-contact">
           <div className="text">
             <i className="fas fa-envelope" />
-            <a href="#" className="btn-link btn">
+            <a href="" className="btn-link btn">
               Request a Quote
             </a>
           </div>

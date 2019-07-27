@@ -1,0 +1,102 @@
+.introduction {
+  display: flex;
+  height: auto;
+  padding: 10px 0px 30px 0px;
+  //   Description
+  .intro,
+  .form {
+    height: 100%;
+    width: 50%;
+    // border: $border;
+  }
+  .intro {
+    padding-left: 40px;
+    h1 {
+      font-weight: bold;
+      font-size: 2.7vw;
+    }
+    // paragraph-1
+    .intro-1 {
+      padding-top: 30px;
+    }
+  }
+  //   form div
+  .form {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    // form tag
+    .conversation {
+      position: relative;
+      height: 100%;
+      width: 90%;
+      background-color: $lightBlack;
+      h1 {
+        color: $orange;
+        font-size: 2vw;
+        font-weight: bold;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+      }
+      //   input div
+      .input-tags {
+        height: auto;
+        width: 100%;
+        // border: 2px solid red;
+        position: absolute;
+        top: 50px;
+        // 50% width input parent width
+        .tags {
+          height: 70px;
+          width: 100%;
+          //   border: 2px solid white;
+          display: flex;
+          //   50% div
+          .tag {
+            height: 100%;
+            width: 50%;
+            // border: 2px solid greenyellow;
+          }
+          //   100% div
+          .tag-full {
+            width: 100%;
+            // border: 2px solid greenyellow;
+          }
+        }
+        // select tag
+        .option {
+          padding-left: 0 !important;
+        }
+        // input tag
+        .input,
+        .input-full {
+          background-color: $black;
+          border: 1px solid $black;
+          border-radius: 5px;
+          outline: none;
+          color: white;
+          font-family: cursive;
+          padding-left: 10px;
+          margin-left: 15px;
+          width: 90%;
+          &:focus {
+            box-shadow: 0px 0px 10px 3px black;
+            transition: all 0.1s;
+          }
+        }
+        // label
+        .conversation-label {
+          margin-left: 15px;
+        }
+        // input tag
+        .input-full {
+          width: 95%;
+        }
+      }
+    }
+  }
+}
+
+// Responsive
+@import "../Responsive/Introduction/introductionResponsive";

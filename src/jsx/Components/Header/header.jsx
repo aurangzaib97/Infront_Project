@@ -1,12 +1,12 @@
 import React from "react";
-import Clip_Path from "./clipPath";
+import ClipPath from "./clipPath";
 import Heading from "./heading";
 const Header = () => {
   return (
     <React.Fragment>
       <div className="bg-img">
         <Heading />
-        <Clip_Path />
+        <ClipPath />
       </div>
     </React.Fragment>
   );

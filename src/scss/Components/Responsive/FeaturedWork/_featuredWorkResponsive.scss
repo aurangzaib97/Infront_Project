@@ -1,0 +1,35 @@
+@media (min-width: 1800px) {
+  .featuredWork {
+    .text {
+      height: 75vh !important;
+      .text-heading {
+        font-size: 3vw !important;
+      }
+      p,
+      a {
+        font-size: 1.3vw;
+      }
+    }
+    .img {
+      div {
+        height: 23vh;
+      }
+    }
+  }
+}
+@media (max-width: $sm) {
+  .featuredWork {
+    flex-direction: column;
+    .text,
+    .img {
+      width: 90vw;
+    }
+    .img {
+      margin-top: 20px;
+      div {
+        height: 230px;
+        width: 90vw;
+      }
+    }
+  }
+}

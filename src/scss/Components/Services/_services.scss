@@ -26,50 +26,6 @@
     }
   }
 }
-@media (max-width: $xxlg) {
-  .services {
-    div {
-      .service-paragraph {
-        padding-right: 7px;
-      }
-    }
-  }
-}
-@media (min-width: 1800px) {
-  .services {
-    padding-left: 1.2% !important;
-    div {
-      width: 22.5vw !important;
-      .service-paragraph {
-        font-size: 1.2vw;
-      }
-    }
-  }
-}
-@media (max-width: $md) {
-  .services {
-    padding-left: 3.2% !important;
-    div {
-      width: 44.3vw !important;
-      .service-title {
-        font-size: 2.5vw !important;
-      }
-      .service-paragraph {
-        // font-size: 2.2vw !important;
-      }
-    }
-  }
-}
-@media (max-width: $sm) {
-  .services {
-    div {
-      width: 90vw !important;
-      .service-title {
-        font-size: 5vw !important;
-      }
-      .service-paragraph {
-        // font-size: 4.2vw !important;
-      }
-    }
-  }
-}
+
+// Responsive
+@import "../Responsive/Services/servicesResponsive";

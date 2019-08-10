@@ -1,3 +1,37 @@
+@media (min-width: 2000px) {
+  .conversation {
+    height: 550px;
+    width: 35vw !important;
+    .conversation-label {
+      font-size: 0.8vw !important;
+    }
+    .option {
+      font-size: 0.9vw;
+    }
+    .input,
+    .input-full {
+      height: 30px;
+    }
+    .but {
+      margin-top: 15px !important;
+    }
+  }
+  .intro {
+    p {
+      font-size: 1vw;
+      padding-right: 3vw;
+      text-align: justify;
+    }
+  }
+}
+@media (max-width: $xlg) {
+  .conversation {
+    height: 470px !important;
+    .input-tags {
+      top: 12% !important;
+    }
+  }
+}
 @media (max-width: $md) {
   .introduction {
     //   form div

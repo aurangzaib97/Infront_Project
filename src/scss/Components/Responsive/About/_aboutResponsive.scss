@@ -1,0 +1,66 @@
+@media (min-width: 2000px) {
+  .tipsAndTricks,
+  .awardWinning {
+    padding-top: 2vw !important;
+    height: 21vw !important;
+  }
+  .pic {
+    height: 21vw !important;
+  }
+  .tipsHeading {
+    font-size: 1.8vw !important;
+  }
+  .tipsSubHeading {
+    font-size: 1vw !important;
+  }
+  .tipsPara {
+    font-size: 1.1vw !important;
+  }
+}
+@media (max-width: $md) {
+  .about {
+    flex-direction: column;
+    .pic {
+      width: 90vw !important;
+    }
+    .topAside {
+      height: 12vw !important;
+      padding-left: 7.5% !important;
+      padding-top: 3% !important;
+      width: 12vw !important;
+      i {
+        font-size: 2.3vw !important;
+      }
+    }
+    .tipsAndTricks,
+    .awardWinning {
+      width: 90vw !important;
+      margin-top: 20px;
+      padding-left: 7vw !important;
+      padding-right: 7.5vw !important;
+      padding-top: 8.5vw;
+      padding-bottom: 7.5vw;
+      height: auto !important;
+    }
+  }
+}
+@media (max-width: $sm) {
+  .about {
+    .topAside {
+      height: 16vw !important;
+      width: 18vw !important;
+      padding-top: 2vw !important;
+      padding-left: 11vw !important;
+      i {
+        font-size: 3.3vw !important;
+      }
+    }
+  }
+}
+@media (max-width: $xxsm) {
+  .about {
+    .topAside {
+      padding-top: 1vw !important;
+    }
+  }
+}

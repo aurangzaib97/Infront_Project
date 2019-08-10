@@ -1,0 +1,75 @@
+.services {
+  padding: 0px 13px 30px 13px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0.9%;
+  div {
+    padding-bottom: 10px;
+    width: 23.1%;
+    margin-left: 1.51vw;
+    margin-top: 20px;
+    // border: 1px solid;
+    .circle {
+      display: block;
+      margin: 20px 20px;
+    }
+    .service-title {
+      margin-left: 20px;
+      margin-top: -10px;
+      font-size: 1.5vw;
+      font-weight: bold;
+      color: $lightBlue;
+    }
+    .service-paragraph {
+      margin-left: 20px;
+      //   font-size: 1.2vw;
+    }
+  }
+}
+@media (max-width: $xxlg) {
+  .services {
+    div {
+      .service-paragraph {
+        padding-right: 7px;
+      }
+    }
+  }
+}
+@media (min-width: 1800px) {
+  .services {
+    padding-left: 1.2% !important;
+    div {
+      width: 22.5vw !important;
+      .service-paragraph {
+        font-size: 1.2vw;
+      }
+    }
+  }
+}
+@media (max-width: $md) {
+  .services {
+    padding-left: 3.2% !important;
+    div {
+      width: 44.3vw !important;
+      .service-title {
+        font-size: 2.5vw !important;
+      }
+      .service-paragraph {
+        // font-size: 2.2vw !important;
+      }
+    }
+  }
+}
+@media (max-width: $sm) {
+  .services {
+    div {
+      width: 90vw !important;
+      .service-title {
+        font-size: 5vw !important;
+      }
+      .service-paragraph {
+        // font-size: 4.2vw !important;
+      }
+    }
+  }
+}

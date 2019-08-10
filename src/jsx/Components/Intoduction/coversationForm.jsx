@@ -114,7 +114,7 @@ const ConversationForm = () => {
             <input
               type="submit"
               value="Submit"
-              className="btn btn-primary ml-3"
+              className="btn btn-primary ml-3 mt-2 but"
             />
           </div>
         </form>

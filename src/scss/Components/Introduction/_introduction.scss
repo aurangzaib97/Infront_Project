@@ -22,14 +22,18 @@
   }
   //   form div
   .form {
-    height: 450px;
+    height: auto;
+    // padding-top: 30px;
+    // padding-bottom: 30px;
     display: flex;
+    // border: 2px solid green;
     flex-direction: column;
     // form tag
     .conversation {
       position: relative;
-      height: 100%;
+      height: 500px;
       width: 90%;
+      // padding-bottom: 50%;
       background-color: $lightBlack;
       h1 {
         color: $orange;
@@ -45,7 +49,7 @@
         width: 100%;
         // border: 2px solid red;
         position: absolute;
-        top: 50px;
+        top: 16%;
         // 50% width input parent width
         .tags {
           height: 70px;

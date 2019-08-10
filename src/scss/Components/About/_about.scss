@@ -1,0 +1,53 @@
+.about {
+  padding: 30px 0px;
+  justify-content: space-evenly;
+  .topAside {
+    height: 7vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 4vw;
+    padding-top: 1.3vw;
+    width: 7vw;
+    background-color: $orange;
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+    i {
+      font-size: 1.4vw;
+      color: white;
+    }
+  }
+  .pic {
+    width: 45vw;
+    height: 350px;
+    // border: 1px solid;
+  }
+  .tipsAndTricks,
+  .awardWinning {
+    position: relative;
+    padding-left: 1.5vw;
+    padding-right: 2vw;
+    text-align: justify;
+    background-color: $lightgrey;
+    padding-top: 3vw;
+    height: 350px;
+    padding-bottom: 2vw;
+    width: 22vw;
+    // border: 1px solid;
+  }
+  .awardWinning {
+    padding-bottom: 3.8vw;
+  }
+  .tipsHeading {
+    color: $bl;
+  }
+  .tipsSubHeading {
+    color: $orange;
+    font-family: cursive;
+  }
+  .tipsPara {
+    color: $grey;
+  }
+}
+
+// Responsive
+@import "../Responsive/About/aboutResponsive";

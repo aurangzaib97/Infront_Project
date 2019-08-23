@@ -1,0 +1,112 @@
+@media (min-width: 1800px) {
+  .Blog {
+    .but-2 {
+      font-size: 1.3vw !important;
+    }
+  }
+}
+@media (max-width: $lg) {
+  .blogs {
+    .blog {
+      .img {
+        height: 15vh !important;
+      }
+    }
+  }
+}
+@media (max-width: $md) {
+  .Blog {
+    .blogHeading {
+      margin-left: 3.1% !important;
+      font-size: 6vw !important;
+    }
+    .blogs {
+      .img {
+        width: 25% !important;
+        height: 20vh !important;
+      }
+      flex-direction: column;
+      align-items: center !important;
+      .blog {
+        width: 90vw;
+        .blogContent {
+          .blogContentHeading {
+            font-size: 2.6vw !important;
+          }
+          p {
+            font-size: 1.5vw;
+          }
+        }
+        .blogFooter {
+          width: 50% !important;
+        }
+      }
+      .blog:nth-of-type(2) {
+        margin-top: 20px;
+      }
+    }
+  }
+  .but-2 {
+    margin: 2% 0px 0px 5% !important;
+  }
+}
+@media (max-width: $sm) {
+  .Blog {
+    .blogHeading {
+      margin-left: 5% !important;
+      font-size: 9vw !important;
+    }
+
+    .blogs {
+      .blog {
+        flex-direction: column !important;
+        align-items: center;
+        .img {
+          align-self: flex-start;
+          width: 40vw !important;
+        }
+        .blogContent {
+          width: 100%;
+          .blogContentHeading {
+            font-size: 4.7vw !important;
+          }
+          p {
+            font-size: 3vw;
+          }
+        }
+        .blogFooter {
+          width: 55% !important;
+        }
+      }
+      .blog:nth-of-type(2) {
+        margin-top: 20px;
+      }
+    }
+  }
+  .but-2 {
+    margin: 5% 0px 0px 5% !important;
+  }
+}
+@media (max-width: $xxsm) {
+  .Blog {
+    .blogs {
+      .blog {
+        .img {
+          align-self: flex-start;
+          width: 50vw !important;
+        }
+        .blogContent {
+          p {
+            font-size: 4vw;
+          }
+        }
+        .blogFooter {
+          width: 65% !important;
+        }
+        .blogFooterTwo {
+          width: 70% !important;
+        }
+      }
+    }
+  }
+}

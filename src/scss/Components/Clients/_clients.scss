@@ -1,0 +1,15 @@
+.clients {
+  display: flex;
+  padding: 30px 0px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: $lightgrey;
+  .clientImg {
+    filter: grayscale(100%);
+    transition: all 0.75s;
+    &:hover {
+      filter: grayscale(0%);
+    }
+  }
+}

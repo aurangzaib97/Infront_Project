@@ -1,0 +1,28 @@
+.center {
+  height: 57vh;
+  margin-top: 0;
+  position: relative;
+  background-color: $black;
+  .center-heading {
+    font-size: 1.5vw;
+    padding: 10px 0px 0px 5%;
+  }
+  .contact-numbers {
+    padding-left: 5%;
+    .contact-number {
+      font-size: 1.2vw;
+      margin: 0;
+    }
+  }
+  .links {
+    padding: 20px 0px 0px 5%;
+    .link {
+      // padding-top: 0 !important;
+      margin: 0;
+      font-size: 1.2vw;
+      text-decoration: underline;
+    }
+  }
+}
+// Center Responsive
+@import "../Responsive/Footer/centerResponsive";

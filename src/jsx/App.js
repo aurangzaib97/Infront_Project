@@ -7,6 +7,7 @@ import Services from "./Components/Services/services";
 import FeaturedWork from "./Components/FeaturedWork/featuredWork";
 import Blog from "./Components/Blog/blog";
 import Clients from "./Components/Clients/clients";
+import Footer from "./Components/Footer/footer";
 class App extends Component {
   render() {
     return (
@@ -19,6 +20,7 @@ class App extends Component {
         <FeaturedWork />
         <Blog />
         <Clients />
+        <Footer />
       </React.Fragment>
     );
   }

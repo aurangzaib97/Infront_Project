@@ -1,0 +1,26 @@
+.upper-footer {
+  height: auto;
+  padding: 50px 0px 0px 0px;
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+}
+
+// hover
+.gold-hover {
+  cursor: pointer;
+  transition: all 0.75s;
+  &:hover {
+    color: $orange !important;
+  }
+}
+
+// Footer Responsive
+@import "../Responsive/Footer/footerResponsive";
+// Left Side Style
+@import "./leftSide";
+// Center Side Style
+@import "./center";
+// Right Side Style
+@import "./rightSide";

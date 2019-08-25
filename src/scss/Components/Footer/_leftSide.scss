@@ -1,0 +1,72 @@
+.left-side {
+  background-color: $lightBlack;
+  height: 55vh;
+  border: 1px solid red;
+  width: 30vw;
+  margin-top: 1.9vh;
+  .footer-left-heading {
+    font-size: 1.3vw;
+    padding-left: 10%;
+    padding-top: 10px;
+    margin-bottom: 0 !important;
+  }
+  .address {
+    height: auto;
+    // padding-bottom: 0px !important;
+    width: 100%;
+    // border: 1px solid green;
+    .address-para {
+      margin-top: 0 !important;
+      padding-left: 10%;
+    }
+  }
+  .map-div {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    // border: 1px solid gray;
+    .map {
+      height: 19vh;
+      width: 190px;
+      // border: 1px solid blueviolet;
+      iframe {
+        height: 100%;
+        width: 100%;
+        border: none;
+      }
+    }
+  }
+  .social-icons {
+    // height: 50px;
+    width: 100%;
+    // border: 1px solid darkblue;
+    .icons {
+      height: auto;
+      width: 200px;
+      // border: 1px solid firebrick;
+      display: flex;
+      justify-content: space-evenly;
+      margin-left: 1.2vw;
+      margin-top: 10px;
+      .icon {
+        height: 27px;
+        width: 27px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: $orange;
+        cursor: pointer;
+        transition: color 0.75s, background-color 0.75s;
+        &:hover {
+          color: black;
+          background-color: white;
+        }
+      }
+    }
+  }
+}
+
+// Left Side Responsive
+@import "../Responsive/Footer/leftSideResponsive";

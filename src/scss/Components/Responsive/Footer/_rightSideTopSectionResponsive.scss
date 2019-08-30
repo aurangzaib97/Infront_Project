@@ -1,0 +1,24 @@
+@media (max-width: $md) {
+  .right-side {
+    .page-font {
+      font-size: 1.7vw !important;
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .right-side {
+    .pages-link {
+      flex-wrap: wrap;
+    }
+    .page-responsive {
+      width: 50% !important;
+    }
+    .page-responsive2 {
+      width: 100% !important;
+    }
+    .page-font {
+      font-size: 16px !important;
+    }
+  }
+}

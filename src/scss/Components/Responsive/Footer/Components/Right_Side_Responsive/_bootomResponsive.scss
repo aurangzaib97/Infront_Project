@@ -1,0 +1,19 @@
+@media (max-width: $md) {
+  .bottom-section-1 {
+    .something-input {
+      width: 69% !important;
+    }
+  }
+}
+@media (max-width: $xxsm) {
+  .bottom-section-1 {
+    .form-responsive {
+      display: flex;
+    }
+    .search-btn {
+      margin-top: 0px !important;
+      margin-left: 10px !important;
+      margin-right: 11px;
+    }
+  }
+}

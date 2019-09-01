@@ -1,0 +1,37 @@
+.copyright {
+  height: auto;
+  width: 100%;
+  // padding: 20px 0px 20px 0px;
+  margin-top: -2vw;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: $lightBlue;
+  clip-path: polygon(0 18%, 100% 0%, 100% 99%, 0% 100%);
+  .copy {
+    margin-top: 2.1vw;
+    p {
+      font-size: 1.3vw;
+      color: white;
+      font-weight: bold;
+    }
+  }
+  .other-links {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vw;
+    justify-content: space-around;
+    a {
+      font-size: 1.2vw;
+      color: white;
+      text-decoration: none;
+      border-left: 2px solid white;
+      padding-left: 10px;
+    }
+  }
+}
+
+// Responsive
+@import "../Responsive/Copyright/copyrightResponsive";

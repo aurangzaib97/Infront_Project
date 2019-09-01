@@ -1,13 +1,13 @@
 .right-side {
   width: 50vw;
-  // height: auto !important;
+  border: 1px solid $lightBlack;
   .pages-link {
     width: 100%;
     display: flex;
     // border: 1px solid blue;
     .page-link {
       background-color: $lightBlack;
-      width: 35%;
+      width: 34%;
       border: 1px solid $lightBlack;
     }
     .page-font {

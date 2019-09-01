@@ -8,6 +8,7 @@ import FeaturedWork from "./Components/FeaturedWork/featuredWork";
 import Blog from "./Components/Blog/blog";
 import Clients from "./Components/Clients/clients";
 import Footer from "./Components/Footer/footer";
+import Copyright from "./Components/Copyright/copyright";
 class App extends Component {
   render() {
     return (
@@ -21,6 +22,7 @@ class App extends Component {
         <Blog />
         <Clients />
         <Footer />
+        <Copyright />
       </React.Fragment>
     );
   }

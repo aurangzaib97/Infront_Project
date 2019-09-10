@@ -32,7 +32,7 @@ const Nav = () => {
             {/* FIRST DROPDOWN */}
             <li className="nav-item dropdown">
               <a
-                className="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle gold-hover"
                 href="#"
                 id="navbarDropdown1"
                 role="button"
@@ -59,7 +59,7 @@ const Nav = () => {
             {/* SECOND DROPDOWN */}
             <li className="nav-item dropdown">
               <a
-                className="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle gold-hover gold-hover"
                 href="#"
                 id="navbarDropdown2"
                 role="button"
@@ -94,7 +94,7 @@ const Nav = () => {
             {/* THIRD DROPDOWN */}
             <li className="nav-item dropdown">
               <a
-                className="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle gold-hover"
                 href="#"
                 id="navbarDropdown3"
                 role="button"
@@ -121,7 +121,7 @@ const Nav = () => {
             {/* FOURTH DROPDOWN */}
             <li className="nav-item dropdown">
               <a
-                className="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle gold-hover"
                 href="#"
                 id="navbarDropdown4"
                 role="button"
@@ -143,14 +143,14 @@ const Nav = () => {
             </li>
             {/* NAV ITEM */}
             <li className="nav-item dropdown">
-              <a className="nav-link" href="#" role="button">
+              <a className="nav-link gold-hover" href="#" role="button">
                 BLOG
               </a>
             </li>
             {/* SIXTH DROPDOWN */}
             <li className="nav-item dropdown">
               <a
-                className="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle gold-hover"
                 href="#"
                 id="navbarDropdown6"
                 role="button"

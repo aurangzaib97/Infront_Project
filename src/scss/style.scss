@@ -6,23 +6,26 @@
 
 // Variables
 @import "./Components/variables";
+
+// Home Page Imports
+
 // Header
-@import "./Components/Header/header";
+@import "./Components/Home_Page/Header/header";
 // NavBar
-@import "./Components/NavBar/nav";
+@import "./Components/Home_Page/NavBar/nav";
 // Introduction
-@import "./Components//Introduction/introduction";
+@import "./Components/Home_Page/Introduction/introduction";
 // About Company
-@import "./Components/About/about";
+@import "./Components/Home_Page/About/about";
 // Services
-@import "./Components/Services/services";
+@import "./Components/Home_Page/Services/services";
 // Featured Work
-@import "./Components/FeaturedWork/featuredWork";
+@import "./Components/Home_Page/FeaturedWork/featuredWork";
 // Blog
-@import "./Components/Blog/blog";
+@import "./Components/Home_Page/Blog/blog";
 // Clients
-@import "./Components/Clients/clients";
+@import "./Components/Home_Page/Clients/clients";
 // Footer
-@import "./Components/Footer/footer";
+@import "./Components/Home_Page/Footer/footer";
 // Copyright
-@import "./Components/Copyright/copyright";
+@import "./Components/Home_Page/Copyright/copyright";

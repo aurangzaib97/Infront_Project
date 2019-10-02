@@ -1,0 +1,39 @@
+.pages-div {
+  .aside-black {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 32%;
+    background-color: rgb(153, 153, 153);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 9% 100%);
+  }
+  .aside {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $orange;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 9% 100%);
+    .aside-heading {
+      color: $lightBlue;
+      font-weight: bold;
+      font-size: 1.2vw;
+      margin-top: 15px;
+      span {
+        color: white;
+      }
+    }
+  }
+  .responsive-aside {
+    display: none;
+  }
+}
+.head {
+  display: none;
+}
+
+// Responsive
+@import "../Responsive/Pages/asideResponsive";

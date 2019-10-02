@@ -1,0 +1,63 @@
+@media (min-width: 1800px) {
+  .pages-div {
+    .aside {
+      .aside-heading {
+        font-size: 1.3vw !important;
+      }
+    }
+  }
+}
+@media (max-width: $md) {
+  .pages-div {
+    .aside-black {
+      width: 42% !important;
+    }
+    .aside {
+      width: 40% !important;
+      .aside-heading {
+        font-size: 1.8vw !important;
+      }
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .pages-div {
+    // position: static !important;
+    .aside-black {
+      display: none;
+    }
+    .aside {
+      display: none;
+    }
+  }
+  .responsive-aside {
+    display: block;
+    height: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $orange;
+    .aside-heading {
+      color: $lightBlue;
+      font-weight: bold;
+      font-size: 3vw;
+      margin-top: 15px;
+      span {
+        color: white;
+      }
+    }
+  }
+  .head {
+    display: block;
+  }
+}
+
+@media (max-width: $xsm) {
+  .responsive-aside {
+    .aside-heading {
+      font-size: 4vw !important;
+    }
+  }
+}

@@ -10,7 +10,7 @@ const Nav = () => {
           <img
             src="https://www.infront.com/Sitefinity/WebsiteTemplates/2018/App_Themes/2018/Images/DesignElements/infront-logo.png"
             alt=""
-            width="100%"
+            width="80%"
           />
         </a>
         <button

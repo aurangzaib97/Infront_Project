@@ -1,0 +1,15 @@
+.pages-div {
+  background-color: rgb(223, 228, 231);
+  height: 60px;
+  position: relative;
+  width: 100%;
+}
+
+// Aside
+@import "./aside";
+
+// Pages Name
+@import "./pagesName";
+
+// Responsive
+@import "../Responsive/Pages/pagesResponsive";

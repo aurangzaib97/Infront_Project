@@ -22,33 +22,77 @@
       margin-left: 4%;
       font-size: 1.8vw;
     }
-  }
-}
-
-@media (max-width: $md) {
-  .mainContent {
-    .content {
-      .contentHeading {
-        font-size: 6vw !important;
+    .orangeDiv {
+      padding: 0px 0px 15px 0px;
+      width: 80%;
+      margin-left: 4%;
+      background-color: $orange;
+      .orangeHeading {
+        color: white;
+        margin-left: 4%;
+        padding-top: 20px;
+        font-size: 2.2vw;
+        font-family: cursive;
       }
-      .contentPara {
-        font-size: 2vw !important;
-        width: 90% !important;
+      .orangePara {
+        width: 90%;
       }
-      .content2Head {
-        font-size: 3vw !important;
+    }
+    .toogle {
+      margin-top: 20px;
+      font-weight: bold;
+      margin-left: 4%;
+      .toogleHead {
+        margin-left: 0% !important;
+      }
+      .button_toogle {
+        width: 84%;
+        text-align: left;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: cursive;
+        margin-bottom: 10px;
+      }
+      .item-1,
+      .item-2,
+      .item-3,
+      .item-4,
+      .item-5,
+      .item-6,
+      .item-7,
+      .item-8,
+      .item-9 {
+        border: 1px solid;
+        width: 84%;
+        padding-left: 3.5%;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        font-weight: normal;
+        font-size: 1.2vw;
+        margin-bottom: 20px;
+      }
+      .item-3,
+      .item-4,
+      .item-5,
+      .item-9 {
+        padding-bottom: 0;
+      }
+      #learn {
+        display: none;
+      }
+      .liOne,
+      .liTwo,
+      .liThree,
+      .liFour,
+      .liFive,
+      .liSix,
+      .liSeven,
+      .liEight {
+        display: none;
       }
     }
   }
 }
 
-@media (max-width: $sm) {
-  .mainContent {
-    .content {
-      .contentPara,
-      .content2Head {
-        font-size: 4vw !important;
-      }
-    }
-  }
-}
+// Responsive
+@import "../Responsive/Main_Content/contentResponsive";

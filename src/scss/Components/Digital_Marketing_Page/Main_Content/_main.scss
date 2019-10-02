@@ -12,9 +12,5 @@
 // Aside Content
 @import "./asideContent";
 
-@media (max-width: 768px) {
-  .mainContent {
-    grid-template-rows: repeat(2, 1fr) !important;
-    grid-template-columns: 1fr !important;
-  }
-}
+// Responsive
+@import "../Responsive/Main_Content/mainResponsive";

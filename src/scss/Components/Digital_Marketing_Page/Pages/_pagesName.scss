@@ -9,11 +9,12 @@
     margin-top: 15px;
     display: flex;
     width: 100%;
+    margin-left: 14%;
     justify-content: center;
     font-weight: bold;
     font-size: 1.2vw;
     p {
-      //   border: 2px solid;
+      // border: 2px solid;
       display: flex;
       align-items: center;
 
@@ -28,6 +29,7 @@
     }
 
     p:nth-of-type(2) {
+      white-space: nowrap;
       border: 2px solid transparent;
       &:hover {
         text-decoration: underline;

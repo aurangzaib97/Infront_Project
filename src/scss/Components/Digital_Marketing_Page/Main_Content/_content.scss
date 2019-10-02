@@ -1,0 +1,54 @@
+.mainContent {
+  .content {
+    padding: 20px 0px;
+    // width: 70%;
+
+    border: 1px solid green;
+    .contentHeading {
+      color: $orange;
+      white-space: nowrap;
+      font-weight: bold;
+      font-size: 3vw;
+      margin-left: 4%;
+    }
+    .contentPara {
+      font-size: 1.3vw;
+      margin-left: 4%;
+      text-align: justify;
+      width: 80%;
+    }
+    .content2Head {
+      color: $lightBlue;
+      margin-left: 4%;
+      font-size: 1.8vw;
+    }
+  }
+}
+
+@media (max-width: $md) {
+  .mainContent {
+    .content {
+      .contentHeading {
+        font-size: 6vw !important;
+      }
+      .contentPara {
+        font-size: 2vw !important;
+        width: 90% !important;
+      }
+      .content2Head {
+        font-size: 3vw !important;
+      }
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .mainContent {
+    .content {
+      .contentPara,
+      .content2Head {
+        font-size: 4vw !important;
+      }
+    }
+  }
+}

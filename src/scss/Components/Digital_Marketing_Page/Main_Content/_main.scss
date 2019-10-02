@@ -1,0 +1,20 @@
+.mainContent {
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  //   display: inline;
+  border: 1px solid;
+}
+
+// Content
+@import "./content";
+
+// Aside Content
+@import "./asideContent";
+
+@media (max-width: 768px) {
+  .mainContent {
+    grid-template-rows: repeat(2, 1fr) !important;
+    grid-template-columns: 1fr !important;
+  }
+}

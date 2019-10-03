@@ -1,0 +1,18 @@
+.form {
+  padding-bottom: 25px;
+  width: 100%;
+  background-color: $lightBlack;
+  // Heading
+  .formHead {
+    color: $orange;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+}
+
+// Input Tag
+@import "./Components/Form/formInputTag";
+
+// Responsive
+@import "../../../Responsive/Main_Content/Components/Aside/formResponsive";

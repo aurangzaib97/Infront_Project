@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Content from "./content";
+import Aside from "./aside";
 class Main_Content extends Component {
   state = {};
   render() {
@@ -8,7 +9,7 @@ class Main_Content extends Component {
         <main>
           <div className="mainContent">
             <Content />
-            <div className="asideContent"></div>
+            <Aside />
           </div>
         </main>
       </React.Fragment>

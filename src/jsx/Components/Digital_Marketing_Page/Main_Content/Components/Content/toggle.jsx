@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import $ from "jquery";
 class Toggle extends Component {
-  state = {};
   render() {
     $(document).ready(() => {
       $(`#${this.props.id}`).click(() => {

@@ -1,6 +1,16 @@
-.mainContent {
-  .asideContent {
-    padding: 20px 0px;
-    border: 1px solid red;
-  }
-}
+// .mainContent {
+//   .asideContent {
+//     // height: 100vh;
+//     // padding: 20px 0px;
+//     // border: 1px solid red;
+//   }
+// }
+
+// Aside Form
+@import "./Components/Aside/form";
+
+// Center Text
+@import "./Components/Aside/centerText";
+
+// Bottom
+@import "./Components/Aside/bottom";

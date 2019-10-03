@@ -1,11 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const Center = () => {
   return (
     <React.Fragment>
       <div className="page-link page-responsive">
-        <a href="#" className="page-font gold-hover font-italic">
+        <Link
+          to="/digitalMarketing"
+          className="page-font gold-hover font-italic"
+        >
           DIGITAL MARKETING
-        </a>
+        </Link>
         <a href="#" className="page-font gold-hover">
           SEO
         </a>

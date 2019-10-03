@@ -1,0 +1,30 @@
+.bottom1 {
+  background-color: lightgrey;
+  //   height: 200px;
+  width: 95%;
+  margin-left: 2.5%;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //   border: 1px solid green;
+  .bottomText {
+    margin-left: 17%;
+  }
+  .bottom1Image {
+    width: 94%;
+    // border: 1px solid slategrey;
+  }
+  .bottomPara2 {
+    color: $orange;
+    font-family: cursive;
+  }
+  .bottomPara3 {
+    width: 75%;
+    text-align: justify;
+    color: grey;
+  }
+}
+
+// Responsive
+@import "../../../Responsive/Main_Content/Components/Aside/bottomResponsive";

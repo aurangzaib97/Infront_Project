@@ -6,8 +6,8 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Route to="/" exact component={Home} />
-        <DigitalMarketing />
+        <Route path="/" exact component={Home} />
+        <Route path="/digitalMarketing" component={DigitalMarketing} />
       </React.Fragment>
     );
   }

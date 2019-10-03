@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <React.Fragment>
@@ -6,13 +7,13 @@ const Nav = () => {
         className="navbar navbar-expand-lg sticky-top navbar-light"
         style={{ backgroundColor: "#005cb9" }}
       >
-        <a className="navbar-brand ml-4 resLogo" href="#">
+        <Link to="/" className="navbar-brand ml-4 resLogo">
           <img
             src="https://www.infront.com/Sitefinity/WebsiteTemplates/2018/App_Themes/2018/Images/DesignElements/infront-logo.png"
             alt=""
             width="80%"
           />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -43,6 +44,15 @@ const Nav = () => {
                 DIGITAL MARKETING
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown1">
+                <a className="dropdown-item">
+                  <Link
+                    to="/digitalMarketing"
+                    style={{ color: "black", textDecoration: "none" }}
+                  >
+                    Digital Marketing
+                  </Link>
+                </a>
+                <div className="dropdown-divider" />
                 <a className="dropdown-item" href="#">
                   SEO
                 </a>

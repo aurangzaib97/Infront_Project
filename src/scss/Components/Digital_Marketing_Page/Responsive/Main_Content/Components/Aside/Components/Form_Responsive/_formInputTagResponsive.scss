@@ -1,0 +1,32 @@
+@media (min-width: 1800px) {
+  .inputTag,
+  .inputTag2 {
+    height: 1.5vh;
+  }
+}
+@media (max-width: $md) {
+  .responsive-form-btn {
+    margin-left: 3vw !important;
+  }
+  .labelName1 {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: $sm) {
+  .inputDiv {
+    .input {
+      flex-direction: column;
+      margin-left: 5% !important;
+    }
+    .inputTag {
+      width: 93% !important;
+    }
+    .div {
+      width: 100% !important;
+    }
+  }
+  .responsive-form-btn {
+    margin-left: 5vw !important;
+  }
+}

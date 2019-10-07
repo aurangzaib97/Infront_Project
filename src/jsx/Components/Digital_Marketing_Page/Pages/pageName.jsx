@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 class PagesName extends Component {
   state = {};
   render() {
@@ -6,9 +7,13 @@ class PagesName extends Component {
       <React.Fragment>
         <div className="pagesName">
           <div className="name">
-            <p style={{ color: "grey" }}>Home</p>
+            <Link to="/" style={{ color: "grey" }} className="link1">
+              {this.props.one}
+            </Link>
             <span></span>
-            <p style={{ color: "#005cb9" }}>Digital Marketing</p>
+            <Link style={{ color: "#005cb9" }} className="link1">
+              {this.props.two}
+            </Link>
           </div>
         </div>
       </React.Fragment>

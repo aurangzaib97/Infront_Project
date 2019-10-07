@@ -44,19 +44,14 @@ const Nav = () => {
                 DIGITAL MARKETING
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown1">
-                <a className="dropdown-item">
-                  <Link
-                    to="/digitalMarketing"
-                    style={{ color: "black", textDecoration: "none" }}
-                  >
-                    Digital Marketing
-                  </Link>
-                </a>
+                <Link
+                  to="/seo"
+                  style={{ color: "black", textDecoration: "none" }}
+                >
+                  <a className="dropdown-item">SEO</a>
+                </Link>
                 <div className="dropdown-divider" />
-                <a className="dropdown-item" href="#">
-                  SEO
-                </a>
-                <div className="dropdown-divider" />
+
                 <a className="dropdown-item" href="#">
                   SEM
                 </a>
@@ -64,6 +59,22 @@ const Nav = () => {
                 <a className="dropdown-item" href="#">
                   SOCIAL MEDIA
                 </a>
+                <div className="dropdown-divider" />
+                <Link
+                  to="/digitalMarketing"
+                  style={{
+                    textDecoration: "none",
+                    fontWeight: "normal",
+                    fontSize: "100"
+                  }}
+                >
+                  <a
+                    className="dropdown-item"
+                    style={{ fontSize: "100", color: "#212529" }}
+                  >
+                    Digital Marketing
+                  </a>
+                </Link>
               </div>
             </li>
             {/* SECOND DROPDOWN */}

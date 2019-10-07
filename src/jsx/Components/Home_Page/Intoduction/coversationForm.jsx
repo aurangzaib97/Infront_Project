@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 const ConversationForm = () => {
   return (
     <Fragment>
-      <div className="form">
+      <div className="form" style={{ marginLeft: "0px" }}>
         <form action="#" className="conversation">
           <h1>START THE CONVERSATION</h1>
           <div className="input-tags">

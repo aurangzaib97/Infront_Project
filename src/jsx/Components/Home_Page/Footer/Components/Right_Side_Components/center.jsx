@@ -10,9 +10,9 @@ const Center = () => {
         >
           DIGITAL MARKETING
         </Link>
-        <a href="#" className="page-font gold-hover">
+        <Link to="/seo" className="page-font gold-hover">
           SEO
-        </a>
+        </Link>
         <a href="#" className="page-font gold-hover">
           SEM
         </a>

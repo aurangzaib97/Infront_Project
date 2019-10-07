@@ -7,12 +7,12 @@ class PagesName extends Component {
       <React.Fragment>
         <div className="pagesName">
           <div className="name">
-            <Link to="/" style={{ color: "grey" }} className="link1">
-              {this.props.one}
+            <Link to="/" style={{ color: "#005cb9" }} className="link1">
+              Home
             </Link>
             <span></span>
-            <Link style={{ color: "#005cb9" }} className="link1">
-              {this.props.two}
+            <Link style={{ color: "grey" }} className="link1 link2">
+              Digital Marketing
             </Link>
           </div>
         </div>

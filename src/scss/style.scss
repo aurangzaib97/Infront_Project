@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+.displayNone {
+  display: none;
+}
+.displayBlock {
+  display: block;
+}
 
 // Variables
 @import "./Components/variables";
@@ -33,7 +39,9 @@
 // Digital Marketing Page
 
 // Pages
-@import "./Components/Digital_Marketing_Page/Pages/pages";
+@import "./Components/Digital_Marketing_Page/Pages_Name/pages";
 
 // Main Content
 @import "./Components/Digital_Marketing_Page/Main_Content/main";
+
+// SEO

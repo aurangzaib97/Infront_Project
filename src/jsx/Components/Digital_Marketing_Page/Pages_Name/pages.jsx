@@ -8,7 +8,7 @@ class Pages extends Component {
       <React.Fragment>
         <section>
           <div className="pages-div">
-            <PagesName one="Home" two="Digital Marketing" />
+            <PagesName />
             <Aside />
           </div>
           <div className="responsive-aside">

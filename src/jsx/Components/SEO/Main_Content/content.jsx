@@ -94,8 +94,12 @@ class Content extends Component {
               PROVIDE YOU A QUOTE.
             </h6>
             <div className="video">
-              <video className="videoDiv">
-                <source src="./hello.mp4" type="video" />
+              <video className="videoDiv" controls>
+                <source
+                  src="https://www.youtube.com/watch?v=4o3Ga4dVPio"
+                  type="video/mp4"
+                />
+                Your browser doesn't support html5 video
               </video>
             </div>
             <p className="content2Head content2Head2 content2Head3">

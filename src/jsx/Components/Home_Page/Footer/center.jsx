@@ -8,15 +8,15 @@ const Center = () => {
         </h5>
         <div className="contact-numbers">
           <p className="contact-number text-light">
-            SALES:{" "}
+            SALES:
             <span className="font-weight-bold gold-hover">(719) 577-4404</span>
           </p>
           <p className="contact-number text-light">
-            SUPPORT:{" "}
+            SUPPORT:
             <span className="font-weight-bold gold-hover">(719) 359-5540</span>
           </p>
           <p className="contact-number text-light">
-            BILLING:{" "}
+            BILLING:
             <span className="font-weight-bold gold-hover">(719) 577-4404</span>
           </p>
           <p className="contact-number text-light">

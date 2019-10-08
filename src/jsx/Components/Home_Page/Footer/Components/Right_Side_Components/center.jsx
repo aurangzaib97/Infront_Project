@@ -13,12 +13,12 @@ const Center = () => {
         <Link to="/seo" className="page-font gold-hover">
           SEO
         </Link>
-        <a href="#" className="page-font gold-hover">
+        <Link to="" className="page-font gold-hover">
           SEM
-        </a>
-        <a href="#" className="page-font gold-hover">
+        </Link>
+        <Link to="" className="page-font gold-hover">
           Social Media
-        </a>
+        </Link>
       </div>
     </React.Fragment>
   );

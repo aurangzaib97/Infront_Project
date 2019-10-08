@@ -13,7 +13,7 @@ class Blog extends Component {
               <div className="img">
                 <img
                   src="https://www.infront.com/images/default-source/blog/social-bookmarking.jpg?sfvrsn=592e70be_3"
-                  alt="blog-image"
+                  alt="blog-img"
                   height="100%"
                   width="100%"
                 />
@@ -47,7 +47,7 @@ class Blog extends Component {
               <div className="img">
                 <img
                   src="https://www.infront.com/images/default-source/blog/boost-seo-results.jpg?sfvrsn=9c730b97_3"
-                  alt="blog-image"
+                  alt="blog-img"
                   height="100%"
                   width="100%"
                 />

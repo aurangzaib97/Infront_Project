@@ -11,7 +11,7 @@ class AboutCompany extends Component {
           </div>
           <div className="tipsAndTricks">
             <div className="topAside">
-              <i class="fas fa-question" />
+              <i className="fas fa-question" />
             </div>
             <h4 className="font-weight-bold font-italic tipsHeading">
               The Infront Blog
@@ -29,7 +29,7 @@ class AboutCompany extends Component {
           </div>
           <div className="awardWinning">
             <div className="topAside">
-              <i class="fas fa-scroll" />
+              <i className="fas fa-scroll" />
             </div>
             <h4 className="font-weight-bold font-italic tipsHeading">
               Top Search Rank

@@ -1,23 +1,24 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const Left = () => {
   return (
     <React.Fragment>
       <div className="page-link page-responsive">
-        <a href="#" className="page-font gold-hover font-italic">
+        <Link to="" className="page-font gold-hover font-italic">
           WEB
-        </a>
-        <a href="#" className="page-font gold-hover">
+        </Link>
+        <Link to="" className="page-font gold-hover">
           Web Design
-        </a>
-        <a href="#" className="page-font gold-hover">
+        </Link>
+        <Link to="" className="page-font gold-hover">
           Development
-        </a>
-        <a href="#" className="page-font gold-hover">
+        </Link>
+        <Link to="" className="page-font gold-hover">
           Ecommerce
-        </a>
-        <a href="#" className="page-font gold-hover">
+        </Link>
+        <Link to="" className="page-font gold-hover">
           Cloud Services
-        </a>
+        </Link>
       </div>
     </React.Fragment>
   );

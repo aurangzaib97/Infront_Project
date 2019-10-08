@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const clipPath = () => {
   return (
     <React.Fragment>
@@ -11,9 +12,9 @@ const clipPath = () => {
         <div className="clip-contact">
           <div className="text">
             <i className="fas fa-envelope" />
-            <a href="" className="btn-link btn">
+            <Link to="" className="btn-link btn">
               Request a Quote
-            </a>
+            </Link>
           </div>
         </div>
         <div className="no">

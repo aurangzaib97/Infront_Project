@@ -1,0 +1,46 @@
+.mainContent {
+  .content {
+    .contentHeading2 {
+      color: $orange;
+      white-space: nowrap;
+      font-weight: bold;
+      font-size: 3vw;
+      margin-left: 4%;
+    }
+    .content2Head2 {
+      margin-top: 20px;
+    }
+    .video {
+      width: 100%;
+      padding: 20px 0px 10px 0px;
+      // border: 1px solid green;
+      .videoDiv {
+        margin-left: 4%;
+        width: 80%;
+        border: 1px solid red;
+      }
+    }
+    .seoUl {
+      margin-left: 6%;
+      li {
+        padding-top: 10px;
+        font-weight: bold;
+        font-size: 1.2vw;
+        list-style: disc !important;
+        color: $lightBlue;
+      }
+      li:nth-of-type(5),
+      li:nth-of-type(7) {
+        color: black;
+      }
+    }
+    .orangeDiv {
+      .orangeHeading2 {
+        font-size: 1.7vw;
+      }
+    }
+  }
+}
+
+// Responsive
+@import "../Responsive/Main_Content_Responsive/contentResponsive";

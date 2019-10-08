@@ -32,9 +32,9 @@ const Nav = () => {
           <ul className="navbar-nav">
             {/* FIRST DROPDOWN */}
             <li className="nav-item dropdown">
-              <a
+              <Link
+                to=""
                 className="nav-link dropdown-toggle gold-hover"
-                href="#"
                 id="navbarDropdown1"
                 role="button"
                 data-toggle="dropdown"
@@ -42,46 +42,44 @@ const Nav = () => {
                 aria-expanded="false"
               >
                 DIGITAL MARKETING
-              </a>
+              </Link>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown1">
                 <Link
                   to="/seo"
                   style={{ color: "black", textDecoration: "none" }}
+                  className="dropdown-item"
                 >
-                  <a className="dropdown-item">SEO</a>
+                  SEO
                 </Link>
                 <div className="dropdown-divider" />
 
-                <a className="dropdown-item" href="#">
+                <Link to="" className="dropdown-item">
                   SEM
-                </a>
+                </Link>
                 <div className="dropdown-divider" />
-                <a className="dropdown-item" href="#">
+                <Link to="" className="dropdown-item">
                   SOCIAL MEDIA
-                </a>
+                </Link>
                 <div className="dropdown-divider" />
                 <Link
                   to="/digitalMarketing"
                   style={{
                     textDecoration: "none",
                     fontWeight: "normal",
-                    fontSize: "100"
+                    fontSize: "100",
+                    color: "#212529"
                   }}
+                  className="dropdown-item"
                 >
-                  <a
-                    className="dropdown-item"
-                    style={{ fontSize: "100", color: "#212529" }}
-                  >
-                    Digital Marketing
-                  </a>
+                  Digital Marketing
                 </Link>
               </div>
             </li>
             {/* SECOND DROPDOWN */}
             <li className="nav-item dropdown">
-              <a
+              <Link
+                to=""
                 className="nav-link dropdown-toggle gold-hover gold-hover"
-                href="#"
                 id="navbarDropdown2"
                 role="button"
                 data-toggle="dropdown"
@@ -89,34 +87,34 @@ const Nav = () => {
                 aria-expanded="false"
               >
                 WEBSITES
-              </a>
+              </Link>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown2">
-                <a className="dropdown-item" href="#">
+                <Link to="" className="dropdown-item">
                   WEB DESIGNING
-                </a>
+                </Link>
                 <div className="dropdown-divider" />
-                <a className="dropdown-item" href="#">
+                <Link to="" className="dropdown-item">
                   DEVELOPMENT
-                </a>
+                </Link>
                 <div className="dropdown-divider" />
-                <a className="dropdown-item" href="#">
+                <Link to="" className="dropdown-item">
                   ECOMMERCE
-                </a>
+                </Link>
                 <div className="dropdown-divider" />
-                <a className="dropdown-item" href="#">
+                <Link to="" className="dropdown-item">
                   CLOUD SERVICE
-                </a>
+                </Link>
                 <div className="dropdown-divider" />
-                <a className="dropdown-item" href="#">
+                <Link to="" className="dropdown-item">
                   MOBILE SITES
-                </a>
+                </Link>
               </div>
             </li>
             {/* THIRD DROPDOWN */}
             <li className="nav-item dropdown">
-              <a
+              <Link
+                to=""
                 className="nav-link dropdown-toggle gold-hover"
-                href="#"
                 id="navbarDropdown3"
                 role="button"
                 data-toggle="dropdown"
@@ -124,26 +122,26 @@ const Nav = () => {
                 aria-expanded="false"
               >
                 ABOUT
-              </a>
+              </Link>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown3">
-                <a className="dropdown-item" href="#">
+                <Link to="" className="dropdown-item">
                   THE TEAM
-                </a>
+                </Link>
                 <div className="dropdown-divider" />
-                <a className="dropdown-item" href="#">
+                <Link to="" className="dropdown-item">
                   COMPANY
-                </a>
+                </Link>
                 <div className="dropdown-divider" />
-                <a className="dropdown-item" href="#">
+                <Link to="" className="dropdown-item">
                   JOBS
-                </a>
+                </Link>
               </div>
             </li>
             {/* FOURTH DROPDOWN */}
             <li className="nav-item dropdown">
-              <a
+              <Link
+                to=""
                 className="nav-link dropdown-toggle gold-hover"
-                href="#"
                 id="navbarDropdown4"
                 role="button"
                 data-toggle="dropdown"
@@ -151,28 +149,28 @@ const Nav = () => {
                 aria-expanded="false"
               >
                 WORK
-              </a>
+              </Link>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown4">
-                <a className="dropdown-item" href="#">
+                <Link to="" className="dropdown-item">
                   PORTFOLIO
-                </a>
+                </Link>
                 <div className="dropdown-divider" />
-                <a className="dropdown-item" href="#">
+                <Link to="" className="dropdown-item">
                   CASE STUDIES
-                </a>
+                </Link>
               </div>
             </li>
             {/* NAV ITEM */}
             <li className="nav-item dropdown">
-              <a className="nav-link gold-hover" href="#" role="button">
+              <Link to="" className="nav-link gold-hover" role="button">
                 BLOG
-              </a>
+              </Link>
             </li>
             {/* SIXTH DROPDOWN */}
             <li className="nav-item dropdown">
-              <a
+              <Link
+                to=""
                 className="nav-link dropdown-toggle gold-hover"
-                href="#"
                 id="navbarDropdown6"
                 role="button"
                 data-toggle="dropdown"
@@ -180,11 +178,11 @@ const Nav = () => {
                 aria-expanded="false"
               >
                 CONTACT
-              </a>
+              </Link>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown6">
-                <a className="dropdown-item" href="#">
+                <Link to="" className="dropdown-item">
                   SUPPORT
-                </a>
+                </Link>
               </div>
             </li>
           </ul>

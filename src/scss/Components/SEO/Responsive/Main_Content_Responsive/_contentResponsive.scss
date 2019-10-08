@@ -1,0 +1,44 @@
+@media (max-width: $md) {
+  .mainContent {
+    .content {
+      .contentHeading2 {
+        font-size: 5vw !important;
+      }
+      .seoUl {
+        margin-left: 7% !important;
+        li {
+          font-size: 2.2vw !important;
+        }
+      }
+      .orangeDiv {
+        .orangeHeading2 {
+          font-size: 2.7vw !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .mainContent {
+    .content {
+      .contentHeading2 {
+        font-size: 5.5vw !important;
+      }
+      .seoUl {
+        margin-left: 9% !important;
+        li {
+          font-size: 4vw !important;
+        }
+      }
+      .content2Head3 {
+        font-size: 5vw !important;
+      }
+      .orangeDiv {
+        .orangeHeading2 {
+          margin-left: 5% !important;
+        }
+      }
+    }
+  }
+}

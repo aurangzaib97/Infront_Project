@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const Copyright = () => {
   return (
     <React.Fragment>
@@ -7,21 +8,21 @@ const Copyright = () => {
           <p>&copy;&nbsp;2019 Infront Webworks</p>
         </div>
         <div className="other-links">
-          <a href="#" className="gold-hover">
+          <Link to="" className="gold-hover">
             Terms of Service
-          </a>
-          <a href="#" className="gold-hover">
+          </Link>
+          <Link to="" className="gold-hover">
             Privacy Policy
-          </a>
-          <a href="#" className="gold-hover">
+          </Link>
+          <Link to="" className="gold-hover">
             Jobs
-          </a>
-          <a href="#" className="gold-hover">
+          </Link>
+          <Link to="" className="gold-hover">
             Company
-          </a>
-          <a href="#" className="gold-hover">
+          </Link>
+          <Link to="" className="gold-hover">
             The Team
-          </a>
+          </Link>
         </div>
       </div>
     </React.Fragment>

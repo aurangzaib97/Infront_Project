@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ToggleButton from "./Components/Content/toggle";
+
 class Content extends Component {
   state = {};
   render() {
@@ -95,7 +95,7 @@ class Content extends Component {
             </h6>
             <div className="video">
               <video className="videoDiv">
-                <source src="https://youtu.be/bK6JV7jJdLg" />
+                <source src="./hello.mp4" type="video" />
               </video>
             </div>
             <p className="content2Head content2Head2 content2Head3">

@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import { Link } from "react-router-dom";
 class Content extends Component {
   render() {
     return (
@@ -13,12 +14,12 @@ class Content extends Component {
             conversion rates.
           </p>
           <div className="text-link">
-            <a href="#" className="btn btn-link">
+            <Link to="" className="btn btn-link">
               Read Case Studies
-            </a>
-            <a href="#" className="btn btn-link">
+            </Link>
+            <Link to="" className="btn btn-link">
               Get A Quote
-            </a>
+            </Link>
           </div>
         </div>
       </Fragment>

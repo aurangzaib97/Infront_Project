@@ -1,0 +1,25 @@
+.mainContent4 {
+  .content {
+    .contentHeading3 {
+      font-size: 2.64vw;
+    }
+    .content2Head4 {
+      width: 90%;
+    }
+    .semUl {
+      margin-left: 6%;
+      li {
+        font-size: 1.2vw;
+      }
+    }
+    .semUl2 {
+      margin-left: 4%;
+      li {
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+// Responsive
+@import "../Responsive/Main_Content_Responsive/contentResponsive";

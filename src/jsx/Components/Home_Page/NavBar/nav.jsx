@@ -53,7 +53,7 @@ const Nav = () => {
                 </Link>
                 <div className="dropdown-divider" />
 
-                <Link to="" className="dropdown-item">
+                <Link to="/sem" className="dropdown-item">
                   SEM
                 </Link>
                 <div className="dropdown-divider" />

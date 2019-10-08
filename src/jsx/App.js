@@ -3,6 +3,7 @@ import { Route } from "react-router-dom";
 import Home from "./Pages/home";
 import DigitalMarketing from "./Pages/digitalMarketing";
 import SEO from "./Pages/seo";
+import SEM from "./Pages/sem";
 class App extends Component {
   render() {
     return (
@@ -10,6 +11,7 @@ class App extends Component {
         <Route path="/" exact component={Home} />
         <Route path="/digitalMarketing" component={DigitalMarketing} />
         <Route path="/seo" component={SEO} />
+        <Route path="/sem" component={SEM} />
       </React.Fragment>
     );
   }

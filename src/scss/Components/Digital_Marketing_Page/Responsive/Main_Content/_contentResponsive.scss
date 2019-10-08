@@ -1,6 +1,7 @@
 @media (max-width: $md) {
-  .mainContent {
-    border: 1px solid;
+  .mainContent,
+  .mainContent4 {
+    // border: 1px solid;
     .content {
       .contentHeading {
         font-size: 6vw !important;
@@ -53,7 +54,8 @@
 }
 
 @media (max-width: $sm) {
-  .mainContent {
+  .mainContent,
+  .mainContent4 {
     .content {
       .contentPara,
       .content2Head {

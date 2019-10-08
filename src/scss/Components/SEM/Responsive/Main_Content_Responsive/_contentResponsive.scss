@@ -1,0 +1,30 @@
+@media (max-width: $md) {
+  .mainContent4 {
+    .content {
+      .contentHeading3 {
+        font-size: 4.19vw !important;
+      }
+      .semUl {
+        li {
+          font-size: 2vw !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .mainContent4 {
+    .content {
+      .semUl {
+        margin-left: 9% !important;
+        li {
+          font-size: 4vw !important;
+        }
+      }
+      .semUl2 {
+        margin-left: 4vw !important;
+      }
+    }
+  }
+}

@@ -11,7 +11,20 @@ class PagesName extends Component {
               Home
             </Link>
             <span></span>
-            <Link style={{ color: "grey" }} className="link1 link2">
+            <Link to="/seo" style={{ color: "#005cb9" }} className="link1">
+              SEO
+            </Link>
+            <Link to="/sem" style={{ color: "#005cb9" }} className="link1">
+              SEM
+            </Link>
+            <Link
+              to="/social-media"
+              style={{ color: "#005cb9" }}
+              className="link1 link3"
+            >
+              Social Media
+            </Link>
+            <Link to="" style={{ color: "grey" }} className="link1 link2">
               Digital Marketing
             </Link>
           </div>

@@ -14,7 +14,7 @@ class Input extends Component {
                 type={this.props.typeOne}
                 id={this.props.labelIdOne}
                 className="inputTag"
-                required
+                required={this.props.req1}
               />
             </div>
             <div className="div">
@@ -25,6 +25,7 @@ class Input extends Component {
                 type={this.props.typeTwo}
                 id={this.props.labelIdTwo}
                 className="inputTag"
+                required={this.props.req2}
               />
             </div>
           </div>

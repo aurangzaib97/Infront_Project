@@ -6,18 +6,11 @@ class PagesName extends Component {
     return (
       <React.Fragment>
         <div className="pagesName">
-          <div className="name">
+          <div className="name name2">
             <Link to="/" style={{ color: "#005cb9" }} className="link1">
               Home
             </Link>
             <span></span>
-            <Link
-              to="/digitalMarketing"
-              style={{ color: "#005cb9", whiteSpace: "nowrap" }}
-              className="link1"
-            >
-              Digital Marketing
-            </Link>
             <Link style={{ color: "grey" }} className="link1 link2">
               SEO
             </Link>

@@ -15,6 +15,8 @@ class Form extends Component {
               labelIdTwo="lname1"
               typeOne="text"
               typeTwo="text"
+              req1="required"
+              req2="required"
             />
             <InputTag
               labelNameOne="Company Name"
@@ -23,6 +25,8 @@ class Form extends Component {
               labelIdTwo="EMail1"
               typeOne="text"
               typeTwo="email"
+              req1="required"
+              req2="required"
             />
             <InputTag
               labelNameOne="Phone Number"
@@ -31,6 +35,8 @@ class Form extends Component {
               labelIdTwo="website1"
               typeOne="tel"
               typeTwo="url"
+              req1="required"
+              req2="required"
             />
             <div className="inputDiv">
               <div className="input">
@@ -38,14 +44,23 @@ class Form extends Component {
                   <label htmlFor="des" className="labelName1">
                     Project Description
                   </label>
-                  <input type="text" id="des" className="inputTag inputTag2" />
+                  <input
+                    type="text"
+                    id="des"
+                    className="inputTag inputTag2"
+                    required
+                  />
                 </div>
               </div>
             </div>
             <div className="inputDiv">
               <div className="input">
                 <div style={{ width: "100%" }}>
-                  <label htmlFor="hear1" className="labelName1">
+                  <label
+                    htmlFor="hear1"
+                    className="labelName1"
+                    title="Optional"
+                  >
                     How did you hear about us ?
                   </label>
                   <select name="hear" id="hear1" className="inputTag inputTag2">

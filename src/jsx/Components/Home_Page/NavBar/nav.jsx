@@ -57,7 +57,7 @@ const Nav = () => {
                   SEM
                 </Link>
                 <div className="dropdown-divider" />
-                <Link to="" className="dropdown-item">
+                <Link to="/social-media" className="dropdown-item">
                   SOCIAL MEDIA
                 </Link>
                 <div className="dropdown-divider" />

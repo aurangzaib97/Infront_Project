@@ -1,6 +1,14 @@
 @media (min-width: 1800px) {
-  .pages-div {
+  // Digital Marketing
+  .pages-div,
+  // Seo
+  .pages-div2 {
     height: 100px !important;
+  }
+}
+@media (max-width: $md) {
+  .pages-div2 {
+    height: 40px;
   }
 }
 

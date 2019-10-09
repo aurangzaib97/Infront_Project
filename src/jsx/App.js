@@ -4,6 +4,7 @@ import Home from "./Pages/home";
 import DigitalMarketing from "./Pages/digitalMarketing";
 import SEO from "./Pages/seo";
 import SEM from "./Pages/sem";
+import SocialMedia from "./Pages/socialMedia";
 class App extends Component {
   render() {
     return (
@@ -12,6 +13,7 @@ class App extends Component {
         <Route path="/digitalMarketing" component={DigitalMarketing} />
         <Route path="/seo" component={SEO} />
         <Route path="/sem" component={SEM} />
+        <Route path="/social-media" component={SocialMedia} />
       </React.Fragment>
     );
   }

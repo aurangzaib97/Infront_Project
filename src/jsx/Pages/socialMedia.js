@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import Nav from "../Components/Home_Page/NavBar/nav";
-import MainContent from "../Components/SEM/Main_Content/main";
-import PagesName from "../Components/SEM/Pages_Name/pages";
+import NavBar from "../Components/Home_Page/NavBar/nav";
+import PagesName from "../Components/Social_Media/Pages_Name/pages";
+import MainContent from "../Components/Social_Media/Main_Content/main";
 import Clients from "../Components/Home_Page/Clients/clients";
 import Footer from "../Components/Home_Page/Footer/footer";
 import Copyright from "../Components/Home_Page/Copyright/copyright";
-class SEM extends Component {
+class SocialMedia extends Component {
   state = {};
   render() {
     return (
       <React.Fragment>
-        <Nav />
+        <NavBar />
         <PagesName />
         <MainContent />
         <Clients />
@@ -21,4 +21,4 @@ class SEM extends Component {
   }
 }
 
-export default SEM;
+export default SocialMedia;

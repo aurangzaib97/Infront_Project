@@ -5,16 +5,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  // Digital Marketing
   .name {
     display: flex;
     width: 100vw;
-    margin-left: 17vw;
+    margin-left: 16.7vw;
     padding-top: 20px;
     // flex-wrap: wrap;
     justify-content: center;
     font-weight: bold;
     // border: 1px solid red;
     font-size: 1.2vw;
+    // digital Marketing
     .link1 {
       // border: 2px solid;
       display: flex;
@@ -30,6 +33,112 @@
     }
     .link3 {
       white-space: nowrap;
+    }
+    .link2 {
+      white-space: nowrap;
+      border: 2px solid transparent;
+      &:hover {
+        text-decoration: none;
+        cursor: default;
+      }
+    }
+  }
+
+  // Seo
+  .name2 {
+    display: flex;
+    width: 100vw;
+    margin-left: -9.3vw;
+    padding-top: 20px;
+    // flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+    // border: 1px solid red;
+    font-size: 1.2vw;
+
+    // Seo
+    .seoLink1 {
+      // border: 2px solid;
+      display: flex;
+      align-items: center;
+      border-right: 2px solid;
+      height: 20px;
+      padding-right: 1vw;
+      padding-left: 1vw;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+    .link2 {
+      white-space: nowrap;
+      border: 2px solid transparent;
+      &:hover {
+        text-decoration: none;
+        cursor: default;
+      }
+    }
+  }
+  // sem
+  .name3 {
+    display: flex;
+    width: 100vw;
+    margin-left: -4.7vw;
+    padding-top: 20px;
+    // flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+    // border: 1px solid red;
+    font-size: 1.2vw;
+
+    // Seo
+    .seoLink1 {
+      // border: 2px solid;
+      display: flex;
+      align-items: center;
+      border-right: 2px solid;
+      height: 20px;
+      padding-right: 1vw;
+      padding-left: 1vw;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+    .link2 {
+      white-space: nowrap;
+      border: 2px solid transparent;
+      &:hover {
+        text-decoration: none;
+        cursor: default;
+      }
+    }
+  }
+
+  // Social Media
+  .name4 {
+    display: flex;
+    width: 100vw;
+    margin-left: 5.8vw;
+    padding-top: 20px;
+    // flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+    // border: 1px solid red;
+    font-size: 1.2vw;
+
+    .socialLink1 {
+      // border: 2px solid;
+      display: flex;
+      align-items: center;
+      border-right: 2px solid;
+      height: 20px;
+      padding-right: 1vw;
+      padding-left: 1vw;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
     }
     .link2 {
       white-space: nowrap;

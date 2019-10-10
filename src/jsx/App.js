@@ -8,6 +8,7 @@ import SocialMedia from "./Pages/socialMedia";
 import Web from "./Pages/web";
 import WebDesign from "./Pages/webDesign";
 import Development from "./Pages/development";
+import Ecommerce from "./Pages/ecommerce";
 class App extends Component {
   render() {
     return (
@@ -20,6 +21,7 @@ class App extends Component {
         <Route path="/websites" component={Web} />
         <Route path="/web-design" component={WebDesign} />
         <Route path="/development" component={Development} />
+        <Route path="/ecommerce" component={Ecommerce} />
       </React.Fragment>
     );
   }

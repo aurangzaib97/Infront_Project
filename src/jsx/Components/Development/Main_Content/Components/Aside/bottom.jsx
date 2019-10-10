@@ -16,17 +16,17 @@ class Bottom extends Component {
             <div className="bottomText">
               <h4>
                 <b>
-                  <i>Free SEO Audit</i>
+                  <i>Need Web Work?</i>
                 </b>
               </h4>
-              <p className="bottomPara2">Why aren't you #1 in search</p>
+              <p className="bottomPara2">Our team of experts can help!</p>
               <p className="bottomPara3">
-                We'll provide you with a free, no-obligation report that will
-                give you powerful insight into how your website stacks up
-                against the competition and ranks in the Search Engines.
+                Whether you need a simple integration with Constant Contact or a
+                complex eCommerce reporting solution not only can we do it, we
+                probably already have. Leverage our years of experience!
               </p>
               <button className="btn btn-primary text-uppercase">
-                Get Your Seo Audit
+                Get A Free Quote
               </button>
             </div>
           </div>

@@ -1,0 +1,11 @@
+.content {
+  .contentHeading5 {
+    font-size: 2.11vw;
+    color: $orange;
+    margin-left: 4%;
+    width: 90%;
+  }
+}
+
+// Responsive
+@import "../Responsive/Main_Content_Responsive/contentResponsive";

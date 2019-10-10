@@ -109,7 +109,7 @@ const Nav = () => {
                   CLOUD SERVICE
                 </Link>
                 <div className="dropdown-divider" />
-                <Link to="" className="dropdown-item">
+                <Link to="/mobile-sites" className="dropdown-item">
                   MOBILE SITES
                 </Link>
               </div>

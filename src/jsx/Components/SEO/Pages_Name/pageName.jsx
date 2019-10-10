@@ -10,7 +10,11 @@ class PagesName extends Component {
             <Link to="/" style={{ color: "#005cb9" }} className="seoLink1">
               Home
             </Link>
-            <Link to="" style={{ color: "grey" }} className="seoLink1 link2">
+            <Link
+              to="/seo"
+              style={{ color: "grey" }}
+              className="seoLink1 link2"
+            >
               SEO
             </Link>
           </div>

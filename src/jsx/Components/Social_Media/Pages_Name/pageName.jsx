@@ -24,7 +24,11 @@ class PagesName extends Component {
             >
               SEM
             </Link>
-            <Link to="" style={{ color: "grey" }} className="socialLink1 link2">
+            <Link
+              to="/social-media"
+              style={{ color: "grey" }}
+              className="socialLink1 link2"
+            >
               SOCIAL MEDIA
             </Link>
           </div>

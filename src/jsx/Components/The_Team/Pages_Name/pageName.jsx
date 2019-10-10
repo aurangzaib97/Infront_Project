@@ -11,18 +11,18 @@ class PagesName extends Component {
               Home
             </Link>
             <Link
-              to="/websites"
+              to="/about"
               style={{ color: "#005cb9", whiteSpace: "nowrap" }}
               className="socialLink1"
             >
-              Websites
+              About
             </Link>
             <Link
-              to="/ecommerce"
+              to="/the-team"
               style={{ color: "grey" }}
               className="socialLink1 link2"
             >
-              Ecommerce
+              The Team
             </Link>
           </div>
         </div>

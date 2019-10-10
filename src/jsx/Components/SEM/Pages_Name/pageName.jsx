@@ -13,7 +13,11 @@ class PagesName extends Component {
             <Link to="/seo" style={{ color: "#005cb9" }} className="seoLink1">
               SEO
             </Link>
-            <Link to="" style={{ color: "grey" }} className="seoLink1 link2">
+            <Link
+              to="/sem"
+              style={{ color: "grey" }}
+              className="seoLink1 link2"
+            >
               SEM
             </Link>
           </div>

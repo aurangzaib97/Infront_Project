@@ -1,0 +1,42 @@
+.main1 {
+  width: 100%;
+  padding: 20px 0px;
+  // border: 1px solid;
+  .main1Heading {
+    color: $orange;
+    font-size: 3vw;
+    margin-left: 4%;
+    font-weight: bold;
+  }
+  .main1Para {
+    font-size: 1.2vw;
+    width: 90%;
+    text-align: justify;
+    margin-left: 4%;
+  }
+  .main1Pic {
+    display: flex;
+    flex-wrap: wrap;
+    // border: 1px solid red;
+    justify-content: space-evenly;
+    div {
+      display: flex;
+      width: 100%;
+      //   margin-left: 3%;
+      //   flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 10px;
+    }
+
+    div:nth-of-type(2),
+    div:nth-of-type(3),
+    div:nth-of-type(4),
+    div:nth-of-type(5),
+    div:nth-of-type(6) {
+      margin-top: 2%;
+    }
+  }
+}
+
+// Responsive
+@import "../Responsive/Main_Content_Responsive/mainResponsive";

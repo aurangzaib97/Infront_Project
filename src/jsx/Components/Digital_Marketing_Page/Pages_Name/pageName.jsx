@@ -24,7 +24,11 @@ class PagesName extends Component {
             >
               Social Media
             </Link>
-            <Link to="" style={{ color: "grey" }} className="link1 link2">
+            <Link
+              to="/digitalMarketing"
+              style={{ color: "grey" }}
+              className="link1 link2"
+            >
               Digital Marketing
             </Link>
           </div>

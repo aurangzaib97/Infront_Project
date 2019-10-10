@@ -132,7 +132,7 @@ const Nav = () => {
                   About Us
                 </Link>
                 <div className="dropdown-divider" />
-                <Link to="" className="dropdown-item">
+                <Link to="/the-team" className="dropdown-item">
                   THE TEAM
                 </Link>
                 <div className="dropdown-divider" />

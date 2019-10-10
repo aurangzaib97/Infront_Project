@@ -18,7 +18,7 @@ class PagesName extends Component {
               Websites
             </Link>
             <Link
-              to="/web-design"
+              to="/cloud-services"
               style={{ color: "grey" }}
               className="socialLink1 link2"
             >

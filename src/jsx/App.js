@@ -6,6 +6,7 @@ import SEO from "./Pages/seo";
 import SEM from "./Pages/sem";
 import SocialMedia from "./Pages/socialMedia";
 import Web from "./Pages/web";
+import WebDesign from "./Pages/webDesign";
 class App extends Component {
   render() {
     return (
@@ -16,6 +17,7 @@ class App extends Component {
         <Route path="/sem" component={SEM} />
         <Route path="/social-media" component={SocialMedia} />
         <Route path="/websites" component={Web} />
+        <Route path="/web-design" component={WebDesign} />
       </React.Fragment>
     );
   }

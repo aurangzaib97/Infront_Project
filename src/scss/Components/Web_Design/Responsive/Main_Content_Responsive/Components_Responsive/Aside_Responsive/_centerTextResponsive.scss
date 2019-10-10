@@ -1,0 +1,17 @@
+@media (max-width: $md) {
+  .centerText {
+    .asideHead {
+      font-size: 3vw !important;
+      margin-left: 2%;
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .centerText {
+    .asideHead {
+      font-size: 5vw !important;
+      margin-left: 2%;
+    }
+  }
+}

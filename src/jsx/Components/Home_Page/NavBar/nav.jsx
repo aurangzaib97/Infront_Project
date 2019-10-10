@@ -93,7 +93,7 @@ const Nav = () => {
                   WEB
                 </Link>
                 <div className="dropdown-divider" />
-                <Link to="" className="dropdown-item">
+                <Link to="/web-design" className="dropdown-item">
                   WEB DESIGNING
                 </Link>
                 <div className="dropdown-divider" />

@@ -1,0 +1,11 @@
+.centerText {
+  .asideHead {
+    color: $lightBlue;
+    // font-weight: bold;
+    align-self: flex-start;
+    font-size: 1.7vw;
+  }
+}
+
+// Responsive
+@import "../../../Responsive/Main_Content_Responsive/Components_Responsive/Aside_Responsive/centerTextResponsive";

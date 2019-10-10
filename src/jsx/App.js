@@ -11,6 +11,7 @@ import Development from "./Pages/development";
 import Ecommerce from "./Pages/ecommerce";
 import CloudServices from "./Pages/cloudServices";
 import MobileSites from "./Pages/mobileSites";
+import About from "./Pages/about";
 class App extends Component {
   render() {
     return (
@@ -26,6 +27,7 @@ class App extends Component {
         <Route path="/ecommerce" component={Ecommerce} />
         <Route path="/cloud-services" component={CloudServices} />
         <Route path="/mobile-sites" component={MobileSites} />
+        <Route path="/about" component={About} />
       </React.Fragment>
     );
   }

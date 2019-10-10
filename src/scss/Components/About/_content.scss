@@ -1,0 +1,10 @@
+.content {
+  .contentHeading6 {
+    color: $orange;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-left: 4%;
+  }
+}
+// Responsive
+@import "./Responsive/Main_Content_Responsive/contentResponsive";

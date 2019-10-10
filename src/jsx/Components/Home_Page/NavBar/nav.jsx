@@ -128,6 +128,10 @@ const Nav = () => {
                 ABOUT
               </Link>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown3">
+                <Link to="/about" className="dropdown-item">
+                  About Us
+                </Link>
+                <div className="dropdown-divider" />
                 <Link to="" className="dropdown-item">
                   THE TEAM
                 </Link>

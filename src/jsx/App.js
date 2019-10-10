@@ -9,6 +9,7 @@ import Web from "./Pages/web";
 import WebDesign from "./Pages/webDesign";
 import Development from "./Pages/development";
 import Ecommerce from "./Pages/ecommerce";
+import CloudServices from "./Pages/cloudServices";
 class App extends Component {
   render() {
     return (
@@ -22,6 +23,7 @@ class App extends Component {
         <Route path="/web-design" component={WebDesign} />
         <Route path="/development" component={Development} />
         <Route path="/ecommerce" component={Ecommerce} />
+        <Route path="/cloud-services" component={CloudServices} />
       </React.Fragment>
     );
   }

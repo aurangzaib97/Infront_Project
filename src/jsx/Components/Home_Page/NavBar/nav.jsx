@@ -105,7 +105,7 @@ const Nav = () => {
                   ECOMMERCE
                 </Link>
                 <div className="dropdown-divider" />
-                <Link to="" className="dropdown-item">
+                <Link to="/cloud-services" className="dropdown-item">
                   CLOUD SERVICE
                 </Link>
                 <div className="dropdown-divider" />

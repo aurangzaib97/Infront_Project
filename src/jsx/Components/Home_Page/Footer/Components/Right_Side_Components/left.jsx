@@ -16,7 +16,7 @@ const Left = () => {
         <Link to="/ecommerce" className="page-font gold-hover">
           Ecommerce
         </Link>
-        <Link to="" className="page-font gold-hover">
+        <Link to="/cloud-services" className="page-font gold-hover">
           Cloud Services
         </Link>
       </div>

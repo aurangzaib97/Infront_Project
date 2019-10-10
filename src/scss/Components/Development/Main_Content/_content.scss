@@ -1,0 +1,10 @@
+.content {
+  .content2Head4 {
+    color: $lightBlue;
+    margin-left: 4%;
+    width: 80%;
+    font-size: 1.8vw;
+  }
+}
+// Responsive
+@import "../Responsive/Main_Content_Responsive/contentResponsive";

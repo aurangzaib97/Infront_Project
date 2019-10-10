@@ -1,0 +1,23 @@
+@media (max-width: $md) {
+  .content {
+    .content2Head4 {
+      font-size: 4vw !important;
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .content {
+    .content2Head4 {
+      font-size: 4.3vw !important;
+      width: 90%;
+    }
+    .contentParaImg1 {
+      width: 30% !important;
+    }
+    .contentParaImg2 {
+      width: 80% !important;
+    }
+  }
+}

@@ -10,7 +10,7 @@ const Left = () => {
         <Link to="/web-design" className="page-font gold-hover">
           Web Design
         </Link>
-        <Link to="" className="page-font gold-hover">
+        <Link to="/development" className="page-font gold-hover">
           Development
         </Link>
         <Link to="" className="page-font gold-hover">

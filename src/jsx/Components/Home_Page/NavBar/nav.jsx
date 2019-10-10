@@ -97,7 +97,7 @@ const Nav = () => {
                   WEB DESIGNING
                 </Link>
                 <div className="dropdown-divider" />
-                <Link to="" className="dropdown-item">
+                <Link to="/development" className="dropdown-item">
                   DEVELOPMENT
                 </Link>
                 <div className="dropdown-divider" />

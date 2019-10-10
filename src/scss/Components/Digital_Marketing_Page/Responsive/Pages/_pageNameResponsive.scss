@@ -8,11 +8,14 @@
     // Sem
     .name3,
     // Social Media
-    .name4 {
+    .name4,
+    // web
+    .name5 {
       margin-top: 15px;
       font-size: 1.4vw !important;
       .seoLink1,
-      .socialLink1 {
+      .socialLink1,
+      .webLink1 {
         height: 40px !important;
       }
     }
@@ -25,12 +28,19 @@
       margin-left: -5vw !important;
       font-size: 1.4vw !important;
     }
+    // Sem
     .name3 {
       margin-left: 0vw !important;
       font-size: 1.4vw !important;
     }
+    // Social Media
     .name4 {
       margin-left: 12vw !important;
+      font-size: 1.4vw !important;
+    }
+    // web
+    .name5 {
+      margin-left: -5vw !important;
       font-size: 1.4vw !important;
     }
   }
@@ -66,6 +76,13 @@
       font-size: 1.4vw !important;
       margin-top: -8px;
       margin-left: 10vw !important;
+    }
+
+    // web
+    .name5 {
+      font-size: 1.4vw !important;
+      margin-top: -8px;
+      margin-left: -9vw !important;
     }
   }
 }
@@ -115,12 +132,23 @@
         padding-right: 3vw !important;
       }
     }
+    // web
+    .name5 {
+      margin-left: -15vw !important;
+      font-size: 3vw !important;
+      // Seo
+      .webLink1 {
+        padding-left: 3vw !important;
+        padding-right: 3vw !important;
+      }
+    }
   }
 }
 
 @media (max-width: $xsm) {
   .pagesName {
     width: 65vw !important;
+    // Digital Marketing
     .name {
       margin-top: -5px !important;
       width: 90px !important;
@@ -166,17 +194,33 @@
         padding-right: 3vw !important;
       }
     }
+    // web
+    .name5 {
+      flex-wrap: nowrap !important;
+      font-size: 3.5vw !important;
+      margin-left: -25vw !important;
+      .webLink1 {
+        padding-left: 3vw !important;
+        padding-right: 3vw !important;
+      }
+    }
   }
 }
 
 @media (max-width: $xxsm) {
   .pagesName {
+    // Digital Marketing
     .name {
       width: 80px !important;
     }
+    // Seo
     .name2,
+    // Sem
     .name3,
-    .name4 {
+    // Social Media
+    .name4,
+    // web
+    .name5 {
       font-size: 4vw !important;
     }
     .name4 {

@@ -89,6 +89,10 @@ const Nav = () => {
                 WEBSITES
               </Link>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <Link to="/websites" className="dropdown-item">
+                  WEB
+                </Link>
+                <div className="dropdown-divider" />
                 <Link to="" className="dropdown-item">
                   WEB DESIGNING
                 </Link>

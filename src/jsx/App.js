@@ -15,6 +15,7 @@ import About from "./Pages/about";
 import TheTeam from "./Pages/theTeam";
 import Company from "./Pages/company";
 import Jobs from "./Pages/jobs";
+import Portfolio from "./Pages/portfolio";
 class App extends Component {
   render() {
     return (
@@ -34,6 +35,7 @@ class App extends Component {
         <Route path="/the-team" component={TheTeam} />
         <Route path="/company" component={Company} />
         <Route path="/jobs" component={Jobs} />
+        <Route path="/portfolio" component={Portfolio} />
       </React.Fragment>
     );
   }

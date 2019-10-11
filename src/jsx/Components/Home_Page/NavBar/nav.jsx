@@ -159,11 +159,11 @@ const Nav = () => {
                 WORK
               </Link>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown4">
-                <Link to="" className="dropdown-item">
+                <Link to="/portfolio" className="dropdown-item">
                   PORTFOLIO
                 </Link>
                 <div className="dropdown-divider" />
-                <Link to="" className="dropdown-item">
+                <Link to="/case-studies" className="dropdown-item">
                   CASE STUDIES
                 </Link>
               </div>

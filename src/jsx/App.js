@@ -14,6 +14,7 @@ import MobileSites from "./Pages/mobileSites";
 import About from "./Pages/about";
 import TheTeam from "./Pages/theTeam";
 import Company from "./Pages/company";
+import Jobs from "./Pages/jobs";
 class App extends Component {
   render() {
     return (
@@ -32,6 +33,7 @@ class App extends Component {
         <Route path="/about" component={About} />
         <Route path="/the-team" component={TheTeam} />
         <Route path="/company" component={Company} />
+        <Route path="/jobs" component={Jobs} />
       </React.Fragment>
     );
   }

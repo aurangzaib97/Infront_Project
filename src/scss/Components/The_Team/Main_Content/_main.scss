@@ -14,6 +14,13 @@
     text-align: justify;
     margin-left: 4%;
   }
+  //jobs
+  .main1Heading2 {
+    color: $lightBlue;
+    margin-left: 4%;
+    font-size: 2vw;
+    font-weight: bold;
+  }
   .main1Pic {
     display: flex;
     flex-wrap: wrap;
@@ -34,6 +41,26 @@
     div:nth-of-type(5),
     div:nth-of-type(6) {
       margin-top: 2%;
+    }
+  }
+  //jobs
+  .main1Ul {
+    margin-left: 5.6%;
+    margin-top: 10px;
+    font-size: 1.2vw;
+    li {
+      margin-top: 10px;
+    }
+  }
+  // jobs
+  .video1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    // border: 1px solid;
+    .videoDiv1 {
+      height: 35vw;
+      // border: 1px solid red;
     }
   }
 }

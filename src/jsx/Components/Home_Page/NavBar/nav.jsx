@@ -136,11 +136,11 @@ const Nav = () => {
                   THE TEAM
                 </Link>
                 <div className="dropdown-divider" />
-                <Link to="" className="dropdown-item">
+                <Link to="/company" className="dropdown-item">
                   COMPANY
                 </Link>
                 <div className="dropdown-divider" />
-                <Link to="" className="dropdown-item">
+                <Link to="/jobs" className="dropdown-item">
                   JOBS
                 </Link>
               </div>

@@ -13,6 +13,7 @@ import CloudServices from "./Pages/cloudServices";
 import MobileSites from "./Pages/mobileSites";
 import About from "./Pages/about";
 import TheTeam from "./Pages/theTeam";
+import Company from "./Pages/company";
 class App extends Component {
   render() {
     return (
@@ -30,6 +31,7 @@ class App extends Component {
         <Route path="/mobile-sites" component={MobileSites} />
         <Route path="/about" component={About} />
         <Route path="/the-team" component={TheTeam} />
+        <Route path="/company" component={Company} />
       </React.Fragment>
     );
   }

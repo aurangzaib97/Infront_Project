@@ -4,7 +4,7 @@ const Right = () => {
   return (
     <React.Fragment>
       <div className="page-link page-responsive2">
-        <Link to="" className="page-font gold-hover font-italic">
+        <Link to="/cloud-services" className="page-font gold-hover font-italic">
           CLOUD SERVICES
         </Link>
         <Link to="" className="page-font gold-hover">

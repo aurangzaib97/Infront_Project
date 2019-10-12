@@ -170,7 +170,7 @@ const Nav = () => {
             </li>
             {/* NAV ITEM */}
             <li className="nav-item dropdown">
-              <Link to="" className="nav-link gold-hover" role="button">
+              <Link to="/blog" className="nav-link gold-hover" role="button">
                 BLOG
               </Link>
             </li>
@@ -188,7 +188,7 @@ const Nav = () => {
                 CONTACT
               </Link>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown6">
-                <Link to="" className="dropdown-item">
+                <Link to="/support" className="dropdown-item">
                   SUPPORT
                 </Link>
               </div>

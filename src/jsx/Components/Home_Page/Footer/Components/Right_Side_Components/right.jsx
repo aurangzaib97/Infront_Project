@@ -7,13 +7,13 @@ const Right = () => {
         <Link to="/cloud-services" className="page-font gold-hover font-italic">
           CLOUD SERVICES
         </Link>
-        <Link to="" className="page-font gold-hover">
+        <Link to="/domain-registration" className="page-font gold-hover">
           Domain Registration
         </Link>
-        <Link to="" className="page-font gold-hover">
+        <Link to="/email-services" className="page-font gold-hover">
           Email Services
         </Link>
-        <Link to="" className="page-font gold-hover">
+        <Link to="/web-hosting" className="page-font gold-hover">
           Web Hosting
         </Link>
       </div>

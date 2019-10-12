@@ -19,6 +19,7 @@ import Portfolio from "./Pages/portfolio";
 import CaseStudies from "./Pages/caseStudies";
 import Support from "./Pages/support";
 import Blog from "./Pages/blog";
+import DomainRegistration from "./Pages/domainRegistration";
 class App extends Component {
   render() {
     return (
@@ -42,6 +43,7 @@ class App extends Component {
         <Route path="/case-studies" component={CaseStudies} />
         <Route path="/blog" component={Blog} />
         <Route path="/support" component={Support} />
+        <Route path="/domain-registration" component={DomainRegistration} />
       </React.Fragment>
     );
   }

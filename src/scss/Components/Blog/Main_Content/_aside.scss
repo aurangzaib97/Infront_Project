@@ -1,0 +1,23 @@
+.main2Aside {
+  width: 30%;
+  // border: 1px solid red;
+  .form2 {
+    width: 87%;
+    background-color: $orange;
+    padding: 20px 0px;
+    .formHeading {
+      margin: 0;
+      color: white;
+      font-weight: bold;
+      font-size: 1.6vw;
+      text-align: center;
+    }
+    .blogLabel {
+      font-size: 1.2vw;
+      margin-left: 12.2%;
+    }
+  }
+}
+
+// Responsive
+@import "../Responsive/Main_Content_Responsive/asideResponsive";

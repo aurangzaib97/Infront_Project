@@ -18,6 +18,7 @@ import Jobs from "./Pages/jobs";
 import Portfolio from "./Pages/portfolio";
 import CaseStudies from "./Pages/caseStudies";
 import Support from "./Pages/support";
+import Blog from "./Pages/blog";
 class App extends Component {
   render() {
     return (
@@ -39,6 +40,7 @@ class App extends Component {
         <Route path="/jobs" component={Jobs} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/case-studies" component={CaseStudies} />
+        <Route path="/blog" component={Blog} />
         <Route path="/support" component={Support} />
       </React.Fragment>
     );

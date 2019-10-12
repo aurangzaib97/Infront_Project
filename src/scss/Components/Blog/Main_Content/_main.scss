@@ -1,0 +1,55 @@
+.main2 {
+  width: 100%;
+  display: flex;
+  padding: 0px 0px 20px 0px;
+  .main2Div {
+    // width: 95%;
+    width: 70%;
+    padding-left: 4%;
+    // border: 1px solid;
+    .main2Heading {
+      margin: 0;
+      color: $orange;
+      font-weight: bold;
+      font-size: 3vw;
+    }
+    .blogInfo {
+      // border: 1px solid green;
+      //   width: 90%;
+      padding: 20px 0px;
+    }
+    .main2Heading2 {
+      color: $lightBlue;
+      font-weight: bold;
+      font-size: 1.7vw;
+      margin: 0;
+    }
+    .date {
+      font-size: 1.2vw;
+    }
+    .blogDetails {
+      // border: 1px solid violet;
+      display: flex;
+
+      .blogImg {
+        width: 15vw;
+        // border: 1px solid;
+      }
+
+      .main2Para {
+        margin: 0;
+        padding: 0px 20px;
+        font-size: 1.2vw;
+      }
+    }
+    .btnDiv {
+      position: relative;
+      width: 100%;
+      // border: 1px solid burlywood;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+// Responsive
+@import "../Responsive/Main_Content_Responsive/mainResponsive";

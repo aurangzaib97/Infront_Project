@@ -20,6 +20,8 @@ import CaseStudies from "./Pages/caseStudies";
 import Support from "./Pages/support";
 import Blog from "./Pages/blog";
 import DomainRegistration from "./Pages/domainRegistration";
+import EmailServices from "./Pages/emailServices";
+import WebHosting from "./Pages/webHosting";
 class App extends Component {
   render() {
     return (
@@ -44,6 +46,8 @@ class App extends Component {
         <Route path="/blog" component={Blog} />
         <Route path="/support" component={Support} />
         <Route path="/domain-registration" component={DomainRegistration} />
+        <Route path="/email-services" component={EmailServices} />
+        <Route path="/web-hosting" component={WebHosting} />
       </React.Fragment>
     );
   }

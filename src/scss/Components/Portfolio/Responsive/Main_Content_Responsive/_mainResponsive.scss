@@ -1,5 +1,5 @@
 @media (min-width: 1800px) {
-  .main2 {
+  .main0 {
     .main2Para {
       width: 95% !important;
       font-size: 1.7vw !important;
@@ -19,7 +19,7 @@
 }
 
 @media (max-width: $lg) {
-  .main2 {
+  .main0 {
     .sites {
       .siteDiv {
         height: 250px !important;
@@ -31,7 +31,7 @@
   }
 }
 @media (max-width: $md) {
-  .main2 {
+  .main0 {
     .main2Heading {
       font-size: 4vw !important;
     }
@@ -57,7 +57,7 @@
 }
 
 @media (max-width: $sm) {
-  .main2 {
+  .main0 {
     .main2Heading {
       font-size: 5.65vw !important;
     }
@@ -105,7 +105,7 @@
 }
 
 @media (max-width: $xxsm) {
-  .main2 {
+  .main0 {
     .main2Para {
       width: 95% !important;
       font-size: 4vw !important;

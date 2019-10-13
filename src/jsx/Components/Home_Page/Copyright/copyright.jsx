@@ -8,19 +8,19 @@ const Copyright = () => {
           <p>&copy;&nbsp;2019 Infront Webworks</p>
         </div>
         <div className="other-links">
-          <Link to="" className="gold-hover">
+          <Link to="/terms-of-services" className="gold-hover">
             Terms of Service
           </Link>
-          <Link to="" className="gold-hover">
+          <Link to="/privacy-policy" className="gold-hover">
             Privacy Policy
           </Link>
-          <Link to="" className="gold-hover">
+          <Link to="/jobs" className="gold-hover">
             Jobs
           </Link>
-          <Link to="" className="gold-hover">
+          <Link to="/company" className="gold-hover">
             Company
           </Link>
-          <Link to="" className="gold-hover">
+          <Link to="/the-team" className="gold-hover">
             The Team
           </Link>
         </div>

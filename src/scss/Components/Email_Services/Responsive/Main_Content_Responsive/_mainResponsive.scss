@@ -1,0 +1,26 @@
+@media (max-width: $md) {
+  .main3 {
+    .main4Heading {
+      font-size: 4vw;
+    }
+    .main4Heading2 {
+      font-size: 1.5vw;
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .main3 {
+    .main4Heading {
+      font-size: 8vw;
+    }
+    .main4Heading2 {
+      font-size: 3.5vw;
+    }
+    .img20 {
+      .img21 {
+        width: 25%;
+      }
+    }
+  }
+}

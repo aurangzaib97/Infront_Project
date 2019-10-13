@@ -7,7 +7,7 @@ class Main extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="main2">
+        <div className="main0">
           {/* Sites Section */}
           <div className="main2Sites">
             <CROSSDEPARTMENTALDIGITALCASESTUDIES />

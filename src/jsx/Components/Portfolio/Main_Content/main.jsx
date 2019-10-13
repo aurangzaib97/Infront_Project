@@ -10,7 +10,7 @@ class Main extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="main2">
+        <div className="main0">
           <h1 className="main2Heading">INFRONT WEBWORKS PORTFOLIO</h1>
           <p className="main2Para">
             Below you can find a small sample of the kind of quality of work you

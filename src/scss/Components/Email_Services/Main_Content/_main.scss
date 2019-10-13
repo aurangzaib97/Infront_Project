@@ -1,0 +1,25 @@
+.main3 {
+  .main4Heading {
+    color: $orange;
+    font-weight: bold;
+    margin: 0;
+    font-size: 3vw;
+  }
+  .main4Heading2 {
+    font-weight: bold;
+    font-size: 1.2vw;
+  }
+  .img20 {
+    display: flex;
+    justify-content: center;
+    // border: 1px solid;
+    width: 95%;
+    padding: 20px;
+    .img21 {
+      //   border: 1px solid red;
+      width: 10%;
+    }
+  }
+}
+// Responsive
+@import "../Responsive/Main_Content_Responsive/mainResponsive";

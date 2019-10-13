@@ -1,0 +1,35 @@
+@media (max-width: $sm) {
+  .main3 {
+    flex-direction: column;
+    .main3Content {
+      width: 100%;
+      .main3Heading {
+        font-size: 5.15vw;
+      }
+    }
+  }
+}
+
+@media (max-width: $md) {
+  .main3 {
+    .main3Content {
+      .main3Para {
+        font-size: 1.5vw;
+        width: 94%;
+        text-align: justify;
+      }
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .main3 {
+    .main3Content {
+      .main3Para {
+        font-size: 3.7vw;
+        width: 95%;
+        text-align: justify;
+      }
+    }
+  }
+}

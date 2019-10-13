@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Sitefinity_Sites from "./Components/Main/sitefinitySites";
-import Ecommerce_Site from "./Components/Main/ecommerceSite";
-import Net_OrchardSites from "./Components/Main/net_orchardSites";
+import SitefinitySites from "./Components/Main/sitefinitySites";
+import EcommerceSite from "./Components/Main/ecommerceSite";
+import NetOrchardSites from "./Components/Main/net_orchardSites";
 import WordpressSites from "./Components/Main/wordpressSites";
 import BigCommerceSites from "./Components/Main/bigCommerceSites";
 import SmallBussinessSites from "./Components/Main/smallBussinessSites";
@@ -19,13 +19,13 @@ class Main extends Component {
           </p>
           {/* Sites Section */}
           <div className="main2Sites">
-            <Sitefinity_Sites />
+            <SitefinitySites />
             {/* line */}
             <hr className="text-muted" />
-            <Ecommerce_Site />
+            <EcommerceSite />
             {/* line */}
             <hr className="text-muted" />
-            <Net_OrchardSites />
+            <NetOrchardSites />
             {/* line */}
             <hr className="text-muted" />
             <WordpressSites />

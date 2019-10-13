@@ -1,0 +1,23 @@
+.main3Aside {
+  width: 30%;
+  // border: 1px solid red;
+  .form3 {
+    // border: 1px solid green;
+    padding: 20px 0px;
+    width: 100%;
+    background-color: $lightBlack;
+    padding-left: 4%;
+    .form3Heading {
+      color: $orange;
+      margin: 0;
+      font-weight: bold;
+      font-size: 2.07vw;
+    }
+    .formLabel6 {
+      font-size: 1.2vw;
+    }
+  }
+}
+
+// Responsive
+@import "../Responsive/Main_Content_Responsive/asideResponsive";

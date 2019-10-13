@@ -1,0 +1,22 @@
+@media (max-width: $sm) {
+  .main3 {
+    .main3Aside {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .form3 {
+        width: 93%;
+        .form3Heading {
+          font-size: 6.3vw;
+        }
+        .formLabel6 {
+          font-size: 3.7vw;
+        }
+      }
+      .googleImg {
+        width: 92%;
+      }
+    }
+  }
+}

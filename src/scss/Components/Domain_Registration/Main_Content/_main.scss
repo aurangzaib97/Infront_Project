@@ -1,0 +1,21 @@
+.main3 {
+  // border: 1px solid;
+  display: flex;
+  .main3Content {
+    width: 70%;
+    // border: 1px solid green;
+    padding-left: 4%;
+    .main3Heading {
+      color: $orange;
+      font-weight: bold;
+      font-size: 2.5vw;
+      margin: 0;
+    }
+    .main3Para {
+      font-size: 1.2vw;
+    }
+  }
+}
+
+// Responsive
+@import "../Responsive/Main_Content_Responsive/mainResponsive";

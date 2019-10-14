@@ -22,6 +22,8 @@ import Blog from "./Pages/blog";
 import DomainRegistration from "./Pages/domainRegistration";
 import EmailServices from "./Pages/emailServices";
 import WebHosting from "./Pages/webHosting";
+import TermsOfServices from "./Pages/termsOfServices";
+import PrivacyPolicy from "./Pages/privacyPolicy";
 class App extends Component {
   render() {
     return (
@@ -48,6 +50,8 @@ class App extends Component {
         <Route path="/domain-registration" component={DomainRegistration} />
         <Route path="/email-services" component={EmailServices} />
         <Route path="/web-hosting" component={WebHosting} />
+        <Route path="/terms-of-services" component={TermsOfServices} />
+        <Route path="/privacy-policy" component={PrivacyPolicy} />
       </React.Fragment>
     );
   }

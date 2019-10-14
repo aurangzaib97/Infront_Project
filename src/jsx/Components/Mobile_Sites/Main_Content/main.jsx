@@ -7,7 +7,7 @@ class Main_Content extends Component {
     return (
       <React.Fragment>
         <main>
-          <div className="mainContent">
+          <div className="mainContent4">
             <Content />
             <Aside />
           </div>

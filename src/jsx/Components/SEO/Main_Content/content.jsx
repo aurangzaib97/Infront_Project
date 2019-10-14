@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+const videofile = require("./hello.mp4");
 class Content extends Component {
   state = {};
   render() {
@@ -95,10 +95,7 @@ class Content extends Component {
             </h6>
             <div className="video">
               <video className="videoDiv" controls>
-                <source
-                  src="https://www.youtube.com/watch?v=4o3Ga4dVPio"
-                  type="video/mp4"
-                />
+                <source src={videofile} type="video/mp4" />
                 Your browser doesn't support html5 video
               </video>
             </div>

@@ -4,3 +4,10 @@
     grid-template-columns: 1fr !important;
   }
 }
+
+@media (max-width: $sm) {
+  .mainContent4 {
+    grid-template-rows: 1fr 0.2fr !important;
+    grid-template-columns: 1fr !important;
+  }
+}
